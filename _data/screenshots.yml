@@ -384,6 +384,18 @@ vero:
     variations:
       image: /assets/screenshots/vero.ab_test.variations.png
       title: A/B Test Variations
+    new-test:
+      image: /assets/screenshots/vero.ab_test.new-test.png
+      title: Add New A/B Test
+    add-variation:
+      image: /assets/screenshots/vero.ab_test.add-variation.png
+      title: Add New A/B Test Variation
+    pick-a-winner:
+      image: /assets/screenshots/vero.ab_test.pick-a-winner.png
+      title: Pick a Winner A/B Test
+    behavioural-and-transactional-tests:
+      image: /assets/screenshots/vero.ab_test.behavioural-and-transactional-tests.png
+      title: Behavioural and Transactional A/B Tests
   multi-languages:
     open-multi-language-menu:
       image: /assets/screenshots/vero.languages-1.png
