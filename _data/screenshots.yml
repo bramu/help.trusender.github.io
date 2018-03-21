@@ -384,6 +384,9 @@ vero:
     variations:
       image: /assets/screenshots/vero.ab_test.variations.png
       title: A/B Test Variations
+    new-test:
+      image: /assets/screenshots/vero.ab_test.new-test.png
+      title: Add New A/B Test
   multi-languages:
     open-multi-language-menu:
       image: /assets/screenshots/vero.languages-1.png
