@@ -32,7 +32,7 @@ To create a new newsletter A/B test:
 
 ![{{ site.data.screenshots.vero.ab_test.add-variation['title'] }}]({{ site.data.screenshots.vero.ab_test.add-variation['image'] }})
 
-3. You can edit the content of each email variation using the 'Edit**'** button. Each variation can have a separate *from address*, *subject line*, *content* and *HTML template*.
+3. You can edit the content of each email variation using the 'Edit' button. Each variation can have a separate *from address*, *subject line*, *content* and *HTML template*.
 
 To delete a variation simply click the 'bin icon' next to the 'Edit' button . If you'd like to completely remove an A/B test from a newsletter, simply delete each variation.
 
