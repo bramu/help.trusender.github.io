@@ -29,9 +29,10 @@ To create a new newsletter A/B test:
 ![{{ site.data.screenshots.vero.ab_test.new-test['title'] }}]({{ site.data.screenshots.vero.ab_test.new-test['image'] }})
 
 2. Use the 'Add variation' button to create the variation(s) for your test.
-3. You can edit the content of each email variation using the 'Edit**'** button. Each variation can have a separate from address, Subject line, content and HTML template.
 
 ![{{ site.data.screenshots.vero.ab_test.add-variation['title'] }}]({{ site.data.screenshots.vero.ab_test.add-variation['image'] }})
+
+3. You can edit the content of each email variation using the 'Edit**'** button. Each variation can have a separate *from address*, *subject line*, *content* and *HTML template*.
 
 To delete a variation simply click the 'bin icon' next to the 'Edit' button . If you'd like to completely remove an A/B test from a newsletter, simply delete each variation.
 
@@ -47,7 +48,7 @@ To send a manual A/B test, schedule the newsletter as you would normally. All va
 
 *Reporting on a manual test*
 
-To view the report on a manual A/B test head to the Reports section in Vero and choose the campaign, this will show you detailed performance metrics for each variation and the winner of the test will be highlighted. Alternatively, you can go to the main menu and navigate to campaigns > newsletters and use the drop down menu to select ‘View full report’.
+To view the report on a manual A/B test head to the Reports section in Vero and choose the campaign, this will show you detailed performance metrics for each variation and the winner of the test will be highlighted. Alternatively, you can go to the main menu and navigate to *Campaigns* > *Newsletters* and use the drop down menu to select ‘View full report’.
 
 **Pick a winner**
 
@@ -60,13 +61,13 @@ To enable **Pick a winner** mode for your test:
 1. Toggle the ‘Pick a winner’ button 'on'
 2. Use the Distribution slider to select the percentage of customers you would like to send the A/B test.
 3. Enter the number of hours you would like the test to run before sending the winner.
-4. Select the metric that you want to use to determine the winner of the variations. You have choose from one of the following:
-  -deliveries<br>
-  -opens<br>
-  -clicks<br>
-  -unsubscribes (the variant with more unsubscribes will be discarded)<br>
-  -conversions (the number of users that took an action after receiving the campaign, such as a purchase).<br>
-5. Select 'Show advanced settings' to select the type of calculation you would like to use to determine the winner of your test. By default, tests will use a calculation that ensures the result is **statistically significant** to a 95% confidence level. If you would like to use the **Bigger number wins** calculation, you can select this from the drop down menu and the winner will simply be determined by the email with the highest number.
+4. Select the metric that you want to use to determine the winner of the variations. You have choose from one of the following:<br>
+  -Deliveries<br>
+  -Opens<br>
+  -Clicks<br>
+  -Unsubscribes (the variant with more unsubscribes will be discarded)<br>
+  -Conversions (the number of users that took an action after receiving the campaign, such as a purchase).<br>
+5. Select 'Show advanced settings' to select the type of calculation you would like to use to determine the winner of your test. By default, tests will use a calculation that ensures the result is **statistically significant** to a 95% confidence level. If you would like to use the **bigger number wins** calculation, you can select this from the drop down menu and the winner will simply be determined by the email with the highest number.
 6. Save your settings.
 
 *Sending a 'Pick a winner' test*
@@ -75,7 +76,7 @@ When you schedule a newsletter campaign with ‘Pick a winner’ test mode, the 
 
 *Reporting on a 'Pick a winner' test*
 
-Once the test has completed, you can view the results of the chosen metric on the A/B testing page. For a more detailed reporting, head to the Reports section in your account.
+Once the test has completed, you can view the results of the chosen metric on the A/B testing page. For more detailed reporting, head to the *Reports* section in your account.
 
 **Note:**
 
@@ -102,11 +103,11 @@ At this point in time you should ensure you have a conversion event configured s
 
 *Launching a behavioural or Transactional A/B test* 
 
-Once all of your variations are setup and you are happy with the split percentages, you can select 'start the A/B test**'** To stop the test, simply return to this page and select ‘stop A/B test’.
+Once all of your variations are setup and you are happy with the split percentages, you can select 'start the A/B test**'.** To stop the test, simply return to this page and select ‘stop A/B test’.
 
 *Reporting on a behavioural or Transactional A/B test*
 
-Results are reported individually for each variation. To see the which variations performed best or to see a detailed report on each variation, visit the Reports section and select the appropriate campaign.
+Results are reported individually for each variation. To see which variations performed best or to see a detailed report on each variation, visit the *Reports* section and select the appropriate campaign.
 
 **Note:**
 
