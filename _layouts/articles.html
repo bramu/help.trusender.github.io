@@ -22,14 +22,11 @@ layout: default
       </div>
     </article>
     <div class="algolia__search-content js-algolia__search-content">
-      <h1 class="page-title">Search</h1>
-      <div class="articles algolia__results"></div>
+      <h2 class="page-title">Search Results:</h2>
+      <div id="search-hits"></div>
     </div>
     <div class="sidebar-wrapper">
-      <div class="help-search hide-on-mobile">
-        <input type="text" class="js-algolia__input" placeholder="Search the help docs"/>
-        <span class="fa fa-search"></span>
-      </div>
+      <div id="search-searchbar" class="hide-on-mobile"></div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
         {% if page.getting_started == true %}
