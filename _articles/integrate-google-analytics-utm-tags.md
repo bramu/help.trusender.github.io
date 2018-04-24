@@ -16,7 +16,7 @@ To enable appending of UTM tags, visit the *Settings > Integrations* menu. Click
 
 ![{{site.data.screenshots.vero.integrations.google_analytics.overview.title}}]({{site.data.screenshots.vero.integrations.google_analytics.overview.image}}) 
 
-Click **Add Google Analaytics Integration** to turn this feature on.
+Click **Add Google Analytics Integration** to turn this feature on.
 
 ![{{site.data.screenshots.vero.integrations.google_analytics.detail.title}}]({{site.data.screenshots.vero.integrations.google_analytics.detail.image}}) 
 
