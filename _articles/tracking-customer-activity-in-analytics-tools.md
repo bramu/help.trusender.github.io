@@ -8,7 +8,7 @@ layout: articles
 
 # Tracking email activity from Vero in data warehouses and analytics tools
 
-There are three ways you can track email campaign activities and data generated in Vero, in other analytics tools or data stores.
+There are three ways you can track email campaign activities and data generated in Vero in data stores and analytics tools.
 
 ## UTM tags
 
