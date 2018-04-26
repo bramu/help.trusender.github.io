@@ -8,7 +8,7 @@ layout: articles
 
 # Tracking email activity from Vero in data warehouses and analytics tools
 
-There are three ways you can track email campaign activities and data generated in Vero in data stores and analytics tools.
+There are three ways you can track email campaign activities and data generated from Vero in data stores and analytics tools.
 
 ## UTM tags
 
@@ -32,7 +32,7 @@ We send the same email events we support with our webhooks to Segment.
 
 Vero can send all email events, including `sent`, `delivered`, `opened`, `clicked`, `bounced`, `unsubscribed` to a webhook you provide.
 
-This enables you to capture and save the data in your own database or data warehouse such as Amazon's Redshift or Google Big Query. This is the most powerful way to collect data from Vero, enabling you to join up your email campaign data with the rest of your customer data. Using a BI tool, like Mode or Looker, you can query all your customer data and build custom reports that can give you the insights important to your specific business.
+This enables you to capture and save the data in your own database or data warehouse such as Amazon's Redshift or Google Big Query. This is the most powerful way to collect data from Vero, enabling you to join up your email campaign data with the rest of your customer data, such as internal application usage and payment information. Using a BI tool, like Mode or Looker, you can then query all your customer data and build custom reports that can give you the insights important to your specific business.
 
 ![{{site.data.screenshots.vero.integrations.webhooks.detail.title}}]({{site.data.screenshots.vero.integrations.webhooks.detail.image}}) 
 
