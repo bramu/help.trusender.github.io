@@ -63,12 +63,16 @@ We have extended the default functionality with a series of custom Liquid functi
 
 ## Inserting even more powerful data in your emails
 
-There are times when you'll want to go beyond the data you can push into Vero using our API.
+There are times when you'll want to go beyond the data you push and store in Vero.
 
 Imagine the scenario where you have triggered a behavioral email three days after a user has taken a specific action, yet want to include the **latest** products available in your store. 
 
 Imagine the scenario you want to send an email every Tuesday and pull in the latest articles from your blog.
 
-Vero's most powerful dynamic templating functionality is called *External Attributes* and allows you to pull in data from JSON and HTML API feeds **just before an individual email is sent**.
+Vero's most powerful dynamic templating functionality is called *Fusion* and allows you to pull in data from your own internal APIs or public API endpoints **just before an individual email is sent**. This provides the data accuracy and timeliness needed to personalise your emails on a truly one-to-one basis. Examples include: 
 
-This allows you to pull in the most real time data possible. You can learn more by reading our full help article on [External Attributes]({{site.data.links.external_attributes}}).
+- Product recommendations tailored specifically to each customer
+- Data and html charts that deliver unique weekly updates with usage details
+- Delightful details like weather and location pulled from services such as OpenWeather and Clearbit
+
+You can learn more by reading our full help article on [Fusion]({{site.data.links.fusion}}).
