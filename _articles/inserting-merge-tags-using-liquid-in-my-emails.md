@@ -75,4 +75,4 @@ Vero's most powerful dynamic templating functionality is called *Fusion* and all
 - Data and html charts that deliver unique weekly updates with usage details
 - Delightful details like weather and location pulled from services such as OpenWeather and Clearbit
 
-You can learn more by reading our full help article on [Fusion]({{site.data.links.fusion}}).
+You can learn more by reading our full help article on [Fusion]({{site.data.links.articles.what-are-external-attributes}}).
