@@ -50,7 +50,7 @@ The following is a list of the key variables and functions you can use:
 
 ## Using Liquid functions
 
-Vero is a complex and powerful templating language. Vero supports most of the functions outlined in the [Liquid for Designers]({{site.data.links.liquid_for_designers}}) documentation. 
+Liquid is a complex and powerful templating language. Vero supports most of the functions outlined in the [Liquid for Designers]({{site.data.links.liquid_for_designers}}) documentation. 
 
 We have extended the default functionality with a series of custom Liquid functions designed to help build better emails whilst making your life easier. We outline each of our custom functions in more detail in our article [Custom Liquid Functions]({{site.data.links.list_of_liquid_functions}}).
 
