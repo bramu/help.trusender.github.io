@@ -95,7 +95,6 @@ Here are some examples:
 
 We provide a custom Liquid variable which lets you access the current time (at the time a newsletter is compiled). To do so, use the code `extra.time.now`. This will return the current datetime as a Unix integer value. You can transform this value using the `date` filter in Liquid. Here is a complex example. This example would result if it was run at 11:37pm 12 November (UTC).
 
-	{{ extra.time.now | date: "%Y-%m-%d %H:%M" | time_zone: -7 | date: "%Y %h %d %H:%M" }}`
- => 2015 Nov 12 16:37
+	{{ extra.time.now | date: "%Y-%m-%d %H:%M" | time_zone: -7 | date: "%Y %h %d %H:%M" }} => 2015 Nov 12 16:37
 	
 All possible timezones can be found [here](http://apidock.com/rails/TimeZone).
