@@ -6,7 +6,7 @@ categories:
 layout: articles
 ---
 
-<div class="alert alert-success">
+<div class="alert alert-success top-margin-medium bottom-margin-small">
   <p class="no-top-margin">
     <strong>This integration is officially supported by Stitch.</strong>
   </p>
@@ -17,9 +17,11 @@ layout: articles
 
 # Integrate Vero and Stitch 
 
+Stitch is a modern extract, transform and load (ETL) platform for rapidly moving data from it's origin source to data warehouses such as Amazon Redshift, Google BigQuery, Snowflake and others. Follow the steps in this guide to push Vero data to your data warehouses via Stitch.
+
 ## Connecting Vero to Stitch
 
-### Add Vero as a Stitch Data Source
+### 1. Add Vero as a Stitch Data Source
 
 To add Vero as an integration in Stitch:
 
@@ -28,7 +30,7 @@ To add Vero as an integration in Stitch:
 - Name your integration. This name will display on the integration but, most importantly, it will be used to create the schema in your destination. We use something like `vero_production` for our _Vero Production_ Vero project. In Stitch, using this example, you'd name the integration `Vero Production`. **Note:** Schema names cannot be changed after you save the integration.
 - Click **Save Integration**.
 
-### Generate a Vero Webhook URL
+### 2. Generate a Vero Webhook URL
 
 Once you've saved the integration, Stitch will redirect you to a page that displays your Vero webhook URL and token. This will look something like this:
 
@@ -38,7 +40,7 @@ This URL is to be **kept secret**. With this URL, data can be written to your da
 
 Copy your new URL, click **Continue** and head over to Vero.
 
-### Set up Webhooks in Vero
+### 3. Set up Webhooks in Vero
 
 The last step is to setup webhooks in your Vero account with your new URL. To do this:
 
