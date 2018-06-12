@@ -52,7 +52,7 @@ The following is a list of the key variables and functions you can use:
 
 Liquid is a complex and powerful templating language. Vero supports most of the functions outlined in the [Liquid for Designers]({{site.data.links.liquid_for_designers}}) documentation. 
 
-We have extended the default functionality with a series of custom Liquid functions designed to help build better emails whilst making your life easier. We outline each of our custom functions in more detail in our article [Custom Liquid Functions]({{site.data.links.list_of_liquid_functions}}).
+We have extended the default functionality with a series of custom Liquid functions designed to help build better emails whilst making your life easier. Vero-specific Liquid functions:
 
 - `{% raw %}{{ user.email | encode }}{% endraw %}` allows you to URL encode the provided value. If `user.email` was equal to `damien+test@getvero.com` it would be rendered as `damien%2Btest%40getvero.com` after encoding.
 - `{% raw %}{{event.invoice_ref | format: '%05d'}}{% endraw %}` allows you to reformat numerical variables (integers, floats, octal numbers, strings, unsigned decimals and hexadecimals). You can use any formatting from the print format cheat sheet.
