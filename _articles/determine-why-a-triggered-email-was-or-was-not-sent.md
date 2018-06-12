@@ -18,7 +18,7 @@ As you can see in the above example, triggered emails can be sent immediately or
 
 It is important to note that the conditions of a campaign are always evaluated **just before an email is sent**.
 
-## Why a campaign was or was not setn
+## Why a campaign was or was not sent
 
 The *Logs* menu in Vero is a complete, real time history of ever customer that is identified, every action a customer triggers and ever campaign a customer receives.
 
