@@ -1,6 +1,6 @@
 ---
 title: Understanding Scheduling and Timing
-description: There are 3 options when setting up a campaign: Send immediately, Wait or Send relative to a variable.
+description: There are 3 options when setting up a campaign... Send immediately, Wait or Send relative to a variable.
 categories:
 - campaigns
 layout: articles

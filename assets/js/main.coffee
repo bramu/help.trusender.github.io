@@ -2,10 +2,6 @@
 ---
 
 $ ->
-  hljs.initHighlightingOnLoad()
-  # Toggle result page
-
-
   clearIncidents = ->
     $('#sp-incidents').innerHTML = ''
 
@@ -32,41 +28,6 @@ $ ->
 
   sp = new StatusPage.page({ page : 't4s7kx6qh253' })
   updateStatusPageBlock()
-
-  showResults = ->
-    window.scroll 0, 0
-    $initialContent.addClass 'algolia__initial-content--hidden'
-    $searchContent.addClass 'algolia__search-content--active'
-    return
-
-  hideResults = ->
-    $initialContent.removeClass 'algolia__initial-content--hidden'
-    $searchContent.removeClass 'algolia__search-content--active'
-    return
-
-  # Handle typing query
-
-  onQueryChange = (e) ->
-    lastQuery = $(e.target).val()
-    if lastQuery.length == 0
-      hideResults()
-      return false
-    helper.setQuery(lastQuery).search()
-    showResults()
-
-  onResult = (data) ->
-    # Avoid race conditions, discard results that do not match the latest query
-    if (data.query != lastQuery)
-      false
-    content = if data.nbHits then renderResults(data) else templateNoResults
-    $searchContentResults.html content
-
-  renderResults = (data) ->
-    $.map(data.hits, (hit) ->
-      hit.css_selector = encodeURI(hit.css_selector)
-      hit.full_url = config.baseurl + hit.url
-      templateResult.render hit
-    ).join ''
 
   # Scroll page to correct element
 
@@ -95,34 +56,56 @@ $ ->
     false
 
   'use strict'
-  config =
-    'applicationId': 'KFSVJ5X7PP'
-    'indexName': 'articles'
-    'apiKey': 'f9991e202b3921d0cc363451afc76645'
-    'baseurl': ''
 
-  applicationId = config.applicationId
-  apiKey = config.apiKey
-  indexName = config.indexName
-  algolia = algoliasearch(applicationId, apiKey)
-  helper = algoliasearchHelper(algolia, indexName)
-  helper.setQueryParameter 'distinct', true
-  helper.on 'result', onResult
+  # Algolia
 
-  # Input listening for queries
-  $searchInput = $('.js-algolia__input, .js-algolia__input_mobile')
-  $searchInput.on 'keyup', onQueryChange
+  # Handle typing query
+  showResults = ->
+    window.scroll 0, 0
+    $initialContent.addClass 'algolia__initial-content--hidden'
+    $searchContent.addClass 'algolia__search-content--active'
+    return
+
+  hideResults = ->
+    $initialContent.removeClass 'algolia__initial-content--hidden'
+    $searchContent.removeClass 'algolia__search-content--active'
+    return
+
+  onQueryChange = (e) ->
+    lastQuery = $(e.target).val()
+    if lastQuery.length == 0
+      hideResults()
+      return false
+    showResults()
+
+  search = instantsearch(
+    appId: 'KFSVJ5X7PP'
+    indexName: 'articles'
+    apiKey: 'f9991e202b3921d0cc363451afc76645')
+
+  search.addWidget instantsearch.widgets.searchBox(
+    container: '#search-searchbar'
+    placeholder: 'Search help docs')
+
+  search.addWidget instantsearch.widgets.hits(
+    container: '#search-hits'
+    templates: {
+      item: document.getElementById('hit-template').innerHTML
+    })
 
   # Content to hide/show when searching
   $initialContent = $('.js-algolia__initial-content')
   $searchContent = $('.js-algolia__search-content')
-  $searchContentResults = $searchContent.find('.algolia__results')
+  $searchContentResults = $searchContent.find('#search-hits')
   $searchContentResults.on 'click', 'a', onLinkClick
 
-  # # Rendering templates
-  templateResult = Hogan.compile($('#algolia__template').html())
-  templateNoResults = $('#algolia__template--no-results').html()
-  lastQuery = undefined
+  # Starting the search
+  $(document).ready ->
+    search.start()
+
+    # Input listening for queries
+    $searchInput = $('.ais-search-box--input')
+    $searchInput.on 'keyup', onQueryChange
 
   window.setTimeout (->
     selector = getAnchorSelector(window.location.hash)

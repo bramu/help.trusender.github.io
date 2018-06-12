@@ -26,4 +26,4 @@ Once installed correctly you will start seeing the `Viewed page` event in the *L
 ![{{site.data.screenshots.vero.logs.events.viewed-page.title}}]({{site.data.screenshots.vero.logs.events.viewed-page.image}})
 
 
-ou can get a full copy of the Vero Javascript Library code from our [API reference]({{site.data.links.vero_api}}).
+You can get a full copy of the Vero Javascript Library code from our [API reference]({{site.data.links.vero_api}}).

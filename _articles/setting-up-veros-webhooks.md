@@ -1,6 +1,6 @@
 ---
 title: Setting up Vero's Webhooks
-description: Vero provides webhooks for the following events: Sent, Delivered, Opened, Clicked, Bounced, Unsubscribed and Customer updated.
+description: Vero provides webhooks for the following events... Sent, Delivered, Opened, Clicked, Bounced, Unsubscribed and Customer updated.
 categories:
 - integrations
 layout: articles

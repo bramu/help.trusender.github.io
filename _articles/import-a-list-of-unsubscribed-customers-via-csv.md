@@ -1,6 +1,6 @@
 ---
 title: Import a list of unsubscribed customers via CSV
-description: There are two ways to unsubscribe a list of customers in Vero: Copy and Paste a list & Import a CSV.
+description: There are two ways to unsubscribe a list of customers in Vero... Copy and Paste a list & Import a CSV.
 categories:
 - customer data
 layout: articles

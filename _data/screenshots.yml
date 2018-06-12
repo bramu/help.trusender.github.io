@@ -84,6 +84,9 @@ vero:
   external-attributes-preview:
     image: /assets/screenshots/vero.external-attributes-preview.png
     title: External attributes preview
+  fusion-data-inspector:
+    image: /assets/screenshots/vero.fusion-data-inspector.png
+    title: Data inspector for Fusion
   triggered-abandonment-campaign:
     image: /assets/screenshots/vero.triggered-abandonment-campaign.png
     title: Triggered abandonment campaign
@@ -159,6 +162,52 @@ vero:
     series:
       image: /assets/screenshots/vero.campaign.series.png
       title: Welcome Series
+    results:
+      image: /assets/screenshots/vero.campaign-results.png
+      title: Campaign Results
+  reporting:
+      date-range:
+        image: /assets/screenshots/vero.report-date-range.png
+        title: Reports date range dropdown
+      overview-engagement:
+        image: /assets/screenshots/vero.report-engagement.png
+        title: Overview report engagement stats
+      chart:
+        image: /assets/screenshots/vero.report-chart.png
+        title: Overview engagment chart
+      breakdown:
+        image: /assets/screenshots/vero.report-breakdown.png
+        title: Breakdown of chart data
+      recent:
+        image: /assets/screenshots/vero.report-recent.png
+        title: Overview recent campaigns report
+      selection:
+        image: /assets/screenshots/vero.report-selection.png
+        title: Select a campaign to report on
+      summary:
+        image: /assets/screenshots/vero.report-summary.png
+        title: A summary of the selected campaign report
+      single-chart:
+        image: /assets/screenshots/vero.report-single-chart.png
+        title: Chart showing data for a single campaign
+      single-breakdown:
+        image: /assets/screenshots/vero.report-single-breakdown.png
+        title: Breakdown of single campaign chart data
+      language-title:
+        image: /assets/screenshots/vero.report-language-title.png
+        title: Languages title and count
+      languages:
+        image: /assets/screenshots/vero.report-languages.png
+        title: Campaign language variation statistics
+      single-engagement:
+        image: /assets/screenshots/vero.report-single-engagement.png
+        title: Engagement statistics for single campaign
+      content-breakdown:
+        image: /assets/screenshots/vero.report-content-breakdown.png
+        title: Content breakdown showing a/b vairations
+      clicks:
+        image: /assets/screenshots/vero.report-clicks.png
+        title: Click statistics for the selected campaign
   user-profile:
     image: /assets/screenshots/vero.user-profile.png
     title: User profile
@@ -335,6 +384,18 @@ vero:
     variations:
       image: /assets/screenshots/vero.ab_test.variations.png
       title: A/B Test Variations
+    new-test:
+      image: /assets/screenshots/vero.ab_test.new-test.png
+      title: Add New A/B Test
+    add-variation:
+      image: /assets/screenshots/vero.ab_test.add-variation.png
+      title: Add New A/B Test Variation
+    pick-a-winner:
+      image: /assets/screenshots/vero.ab_test.pick-a-winner.png
+      title: Pick a Winner A/B Test
+    behavioural-and-transactional-tests:
+      image: /assets/screenshots/vero.ab_test.behavioural-and-transactional-tests.png
+      title: Behavioural and Transactional A/B Tests
   multi-languages:
     open-multi-language-menu:
       image: /assets/screenshots/vero.languages-1.png
@@ -355,3 +416,4 @@ vero:
     new-campaign-event:
       image: /assets/screenshots/vero.events.new-campaign-event.gif
       title: Add an event in the trigger select box on a campaign
+

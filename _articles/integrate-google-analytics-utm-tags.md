@@ -12,11 +12,11 @@ You can automatically append UTM parameters to outbound links in your email camp
 
 Google Analytics, along with  most analytics tools, use this data to attribute conversions to their correct source.
 
-To enable appending of UTM tags, visit the *Settings > Integrations* menu. Click **View** next to the Google Analaytics Integration.
+To enable appending of UTM tags, visit the *Settings > Integrations* menu. Click **View** next to the Google Analytics Integration.
 
 ![{{site.data.screenshots.vero.integrations.google_analytics.overview.title}}]({{site.data.screenshots.vero.integrations.google_analytics.overview.image}}) 
 
-Click **Add Google Analaytics Integration** to turn this feature on.
+Click **Add Google Analytics Integration** to turn this feature on.
 
 ![{{site.data.screenshots.vero.integrations.google_analytics.detail.title}}]({{site.data.screenshots.vero.integrations.google_analytics.detail.image}}) 
 

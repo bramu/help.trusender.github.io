@@ -2,11 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.url == '/index.html' %}
-    <meta name="description" content="Support documentation and answers to common questions from your friends at Vero.">
-  {% else %}
-    <meta name="description" content="{{page.description | strip_html | truncate_words: 28 }}">
-  {% endif %}
+  <meta name="description" content="{% if page.description %}{{page.description | strip_html | truncate_words: 28 }}{% else %}{{site.description}}{% endif %}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8KWK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -18,23 +14,31 @@
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/algoliasearch-helper-js/2.4.0/algoliasearch.helper.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script>
 
+  <!-- highlightjs - code highlighting -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/tomorrow-night-bright.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <!-- Algolia -->
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.1"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.1/dist/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.1/dist/instantsearch-theme-algolia.min.css">
+
   <script src="/assets/js/fout.js"></script>
   <script src="/assets/js/main.js"></script>
-
   <script type="text/javascript" src="//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js"></script>
+
   <link rel="stylesheet" href="//dq4ao5v8lzg12.cloudfront.net/app.min.css">
   <!-- <link rel="stylesheet" href="//0.0.0.0:9000/app.css"> -->
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css">
   <script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
 
-  <script id="algolia__template" type="text/template">
+  <script id="hit-template" type="text/template">
   {% raw %}
     <div class="algolia__result">
-      <a class="algolia__result-link" href="{{ full_url }}#algolia:{{ css_selector }}">{{{ _highlightResult.title.value }}}</a>
-      <div class="algolia__result-text">{{{ _highlightResult.text.value }}}</div>
+      <a class="algolia__result-link" href="https://help.getvero.com{{url}}">{{{ _highlightResult.title.value }}}</a>
+      <div class="algolia__result-text">{{{ _highlightResult.description.value }}}</div>
     </div>
   {% endraw %}
   </script>

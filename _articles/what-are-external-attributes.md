@@ -1,20 +1,20 @@
 ---
-title: What are External Attributes?
-description: Vero's External Attributes feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
+title: Fusion
+description: Vero's Fusion functionality allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
 categories:
 - email design
 layout: articles
 ---
 
-# What are External Attributes?
+# Fusion
 
-Vero's External Attributes feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
+Vero's Fusion feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
 
 It gives you the ability to access data that hasn't been pushed into Vero, and use that data in your email content, subject lines and dynamic attachments.
 
 Example use cases:
 
-- You'd like to send off the top 5 new products in your store that day.
+- You'd like to send off the top five new products in your store that day.
 - Pull in extra information about your users
 - You'd like to show relevant items based on the current stock.
 - You'd like to send customised content for each demographic (i.e. products based on location or even different languages)
@@ -23,7 +23,7 @@ Vero can handle two types of data responses:
 
 ## Returning HTML
 
-To do this you use a custom filter we've built using the [Liquid tempting language]({{ site.data.links['liquid_docs']}}).
+To do this you use a custom filter we've built using the [Liquid templating language]({{ site.data.links['liquid_docs']}}).
 
 This method allows you to pass data stored in Vero back to your server so that you can manipulate it and send back some custom HTML. The custom HTML that is returned is inserted into the body of your email exactly where you place the following tag:
 
@@ -47,17 +47,17 @@ This would then be replaced with the correct HTML upon sending.
 
 ## Returning JSON
 
-Alternately, you can include an API end-point and pull JSON data from your web server to be used when creating a campaign.
+Alternately, you can include an API endpoint and pull JSON data from your web server to be used when creating a campaign.
 
 There are two ways of accessing external JSON data. 
 
-### External Attributes Field
+### Add an external data source
 
-If you have External Attributes enabled for your account, you will find an external attributes input field beneath the content section of your campaign builder:
+To add an external data source for your email, you can select _Data > Add an external source_ from the top menu bar in your content editor and add the API endpoint. 
 
-![{{ site.data.screenshots.vero.external-attributes['title'] }}]({{ site.data.screenshots.vero.external-attributes['image'] }})
+![{{ site.data.screenshots.vero.fusion-data-inspector['title'] }}]({{ site.data.screenshots.vero.fusion-data-inspector['image'] }})
 
-Place the API endpoint into the External Attributes section. For example, if the endpoint was:
+For example, if the endpoint was:
 
 	http://jsonplaceholder.typicode.com/posts/1
 
@@ -85,7 +85,7 @@ After adding this to your template or email body you can then access the returne
 
 ## Authentication
 
-At this time External Attributes only supports basic HTTP Authentication. You can include basic HTTP Authentication details using the format `http://username:password@yoururl.com/data-feed.json`. This is supported by `fetch_html`, `fetch_json` and JSON fetch methods.
+At this time Fusion only supports basic HTTP Authentication. You can include basic HTTP Authentication details using the format `http://username:password@yoururl.com/data-feed.json`. This is supported by `fetch_html`, `fetch_json` and JSON fetch methods.
 
-External Attributes is an advanced feature. Please get in touch with our 
+Fusion is an advanced feature. Please get in touch with our 
 [support team via email](mailto:support@getvero.com) so we can show you it in action.

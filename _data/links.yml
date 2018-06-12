@@ -30,5 +30,7 @@ articles:
   insert_merge_tags: /articles/inserting-merge-tags-using-liquid-in-my-emails.html
   html_templates: /articles/using-html-templates-in-vero.html
   customer_properties: /articles/what-are-customer-properties.html
+  conversion_tracking: /articles/conversion-tracking.html
+  external_attributes: /articles/what-are-external-attributes.html
 reserved-pricing: /articles/lock-in-your-pricing.html
 event-manager: https://app.getvero.com/events
