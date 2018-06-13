@@ -34,3 +34,5 @@ articles:
   external_attributes: /articles/what-are-external-attributes.html
 reserved-pricing: /articles/lock-in-your-pricing.html
 event-manager: https://app.getvero.com/events
+integrations:
+  stitch_help_doc: https://www.stitchdata.com/docs/integrations/webhooks/vero

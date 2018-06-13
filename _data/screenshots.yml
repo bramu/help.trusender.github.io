@@ -289,6 +289,10 @@ vero:
       detail:
         image: /assets/screenshots/vero.integrations.webhooks.detail.png
         title: Vero Webhooks Detail
+    stitch: 
+      generate_url:
+        image: /assets/screenshots/vero.integrations.stitch.generate_url.png
+        title: Generate a Stitch Data URL for Vero
   behavioral:
     trigger_event:  
       image: /assets/screenshots/vero.triggers_the_event.png
