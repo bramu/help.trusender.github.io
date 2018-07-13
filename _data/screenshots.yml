@@ -427,7 +427,7 @@ vero:
     drag-and-drop:
       image: /assets/screenshots/vero.workflows.drag-drop.png
       title: Add logic and action steps
-    Workflow-insights:
+    workflow-insights:
       image: /assets/screenshots/vero.workflows.insights-overview.png
       title: Worflow insights
   
