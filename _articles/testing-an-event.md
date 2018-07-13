@@ -14,7 +14,7 @@ The best way to test an automated email workflow is to fire an event, which in t
 
 ## Testing an event
 
-In the [events manager]({{site.data.links.event-manager}}), choose the event you would like to test. You can see which events have campaigns associated with them in the list or event details view. 
+In the [events manager]({{site.data.links.event.event-manager}}), choose the event you would like to test. You can see which events have campaigns associated with them in the list or event details view. 
 
 1. Click on the **Test** button in the details view of the chosen event.
 

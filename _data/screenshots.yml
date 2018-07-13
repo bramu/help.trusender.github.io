@@ -420,4 +420,14 @@ vero:
     new-campaign-event:
       image: /assets/screenshots/vero.events.new-campaign-event.gif
       title: Add an event in the trigger select box on a campaign
-
+  workflows:
+    canvas-overview:
+      image: /assets/screenshots/vero.workflows.canvas-overview.png
+      title: Workflow canvas overview
+    drag-and-drop:
+      image: /assets/screenshots/vero.workflows.drag-drop.png
+      title: Add logic and action steps
+    workflow-insights:
+      image: /assets/screenshots/vero.workflows.insights.png
+      title: Workflow insights
+  

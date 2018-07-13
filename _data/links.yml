@@ -32,7 +32,14 @@ articles:
   customer_properties: /articles/what-are-customer-properties.html
   conversion_tracking: /articles/conversion-tracking.html
   external_attributes: /articles/what-are-external-attributes.html
+  timing: /articles/scheduling-timing.html
 reserved-pricing: /articles/lock-in-your-pricing.html
-event-manager: https://app.getvero.com/events
+events:
+  event-manager: https://app.getvero.com/events
+  event-placeholders: /articles/adding-a-placeholder-event.html
 integrations:
   stitch_help_doc: https://www.stitchdata.com/docs/integrations/webhooks/vero
+workflows:
+  create_new_workflow: /articles/creating-a-new-workflow.html
+  make_changes_live_workflow: /articles/making-changes-to-a-live-workflow.html
+  workflow_insights: /articles/workflow-insights.html
