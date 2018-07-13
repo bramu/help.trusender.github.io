@@ -2,7 +2,7 @@
 title: Workflow Insights
 description: Once you have published your workflow and emails have started sending to your customers you will be able to view insights in the side bar. 
 categories:
-- workflows
+- workflows (beta)
 layout: articles
 ---
 

@@ -2,7 +2,7 @@
 title: Creating a new workflow
 description: Each new workflow starts with an Entry Trigger, and you can choose from different logic and actions to build your customer journey.
 categories:
-- workflows
+- workflows (beta)
 layout: articles
 ---
 
@@ -22,7 +22,7 @@ To create a new workflow:
 
 ## 1. **Select an entry trigger**
 
-In order for a customer to enter a Workflow, they must trigger an event. Vero defines events as all the actions a customer takes on your site. It could be everything from signing up for an account, purchasing an item or viewing a page. You can [track your customer event data](https://help.getvero.com/articles/adding-a-placeholder-event.html) in Vero so that when you customer triggers the specified event they will be entered into the workflow.
+In order for a customer to enter a Workflow, they must trigger an event. Vero defines events as all the actions a customer takes on your site. It could be everything from signing up for an account, purchasing an item or viewing a page. You can [track your customer event data]({{site.data.links.events.event-placeholders}}) in Vero so that when you customer triggers the specified event they will be entered into the workflow.
 
 ## 2. **Add logic and action steps**
 
@@ -30,11 +30,14 @@ All steps can be easily moved around using drag and drop, giving you full contro
 
 ![{{ site.data.screenshots.vero.workflows.drag-and-drop['title'] }}]({{ site.data.screenshots.vero.workflows.drag-and-drop['image'] }})
 
-Logic steps:
+
+
+### Logic steps:
+
 
 - **Delay**
 
-  Designed to hold users at any stage in a workflow for a period of time, before allowing them to move on to the next step. This is particularly useful if a user must be given time to complete actions before receiving an email. [Vero offers three types of delays.](https://help.getvero.com/articles/scheduling-timing.html)
+  Designed to hold users at any stage in a workflow for a period of time, before allowing them to move on to the next step. This is particularly useful if a user must be given time to complete actions before receiving an email. [Vero offers three types of delays]({{site.data.links.articles.timing}}).
 
 - **Branch**
 
@@ -44,7 +47,9 @@ Logic steps:
 
   Progress users to the next step of the workflow if all the specified conditions are met. customers who don't meet the conditions of the filter will exit the workflow at this point.
 
-Action steps:
+
+
+### Action steps:
 
 - **Email**
 
@@ -54,7 +59,7 @@ Action steps:
 
 ## 3. Add a Conversion Goal
 
-You can measure the overall success of a workflow by adding a conversion goal. A conversion goal is reached when a customer triggers the specified [event](https://help.getvero.com/articles/adding-a-placeholder-event.html) up to 30 days after they have left the workflow. 
+You can measure the overall success of a workflow by adding a conversion goal. A conversion goal is reached when a customer triggers the specified [event]({{site.data.links.events.event-placeholders}}) up to 30 days after they have left the workflow. 
 
 If a customer triggers the conversion goal they will continue to progress normally through the workflow. They will not exit the workflow.
 
@@ -64,4 +69,4 @@ You can change the goal conversion period via **Settings** > **Advanced**.
 
 Once you've reviewed the configuration steps, simply save and publish your workflow to start your customers on their journey!
 
-**Next up**: [Making changes to a live campaign]({{ site.data.links['make_changes_live_workflow']}})
+**Next up**: [Making changes to a live campaign]({{ site.data.links.workflows.make_changes_live_workflow}})
