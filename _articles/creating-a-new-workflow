@@ -4,7 +4,6 @@ description: Each new workflow starts with an Entry Trigger, and you can choose 
 categories:
 - workflows
 layout: articles
-common_issues: true
 ---
 
 # Creating a new workflow
