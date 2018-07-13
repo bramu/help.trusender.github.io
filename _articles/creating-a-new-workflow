@@ -65,4 +65,4 @@ You can change the goal conversion period via **Settings** > **Advanced**.
 
 Once you've reviewed the configuration steps, simply save and publish your workflow to start your customers on their journey!
 
-Next up: [Making changes to a live campaign]({{ site.data.links['make_changes_live_workflow']}})
+**Next up**: [Making changes to a live campaign]({{ site.data.links['make_changes_live_workflow']}})
