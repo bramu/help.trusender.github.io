@@ -2,7 +2,7 @@
 title: Creating a new workflow
 description: Each new workflow starts with an Entry Trigger, and you can choose from different logic and actions to build your customer journey.
 categories:
-- workflows (beta)
+- workflows
 layout: articles
 ---
 
