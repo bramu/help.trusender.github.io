@@ -2,7 +2,7 @@
 title: Making changes to a live workflow
 description: Once you've published a workflow, you’ll often want to come back and make adjustments to optimize email content, timing and other variables.
 categories:
-- workflows (beta)
+- workflows
 layout: articles
 common_issues: true
 ---
