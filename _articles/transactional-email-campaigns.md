@@ -19,5 +19,3 @@ A transactional email is **not** a marketing email. It is an email sent in relat
 ## Priority handling
 
 Transactional emails are prioritised so they are guaranteed immediately delivery. Whilst all campaigns are sent as quickly as possible, there is built in redundancy to ensure customers get mission-critical transactional emails instantly.
-
-We recommend that you invest time making your transactionals mobile-responsive and consistent with your brand since they are opened at up to 8 times more than promotional emails. We created the [Complete Guide to Transactional Email](http://blog.getvero.com/guides/the-complete-guide-to-transactional-email/) to give marketers inspiration for making better use of these emails.
