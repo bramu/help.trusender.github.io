@@ -59,6 +59,14 @@ zapier:
     image: /assets/screenshots/zapier.tags.png
     title: Tags in Zapier
 vero:
+  push:
+    providers:
+      aws:
+        image: /assets/screenshots/vero.push.providers.aws.png
+        title: Setup AWS Push Notification provider
+      twilio:
+        image: /assets/screenshots/vero.push.providers.twilio.png
+        title: Setup Twilio Push Notification provider
   add-tag:
     image: /assets/screenshots/vero.add-tag.png
     title: Add a tag in Vero
