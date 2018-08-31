@@ -22,9 +22,18 @@ Here are a few examples:
 Vero’s behavioral emails replace exporting customer data, creating new segments in Excel and uploading new lists. They’re the fastest, easiest way to send highly personalized, timely emails.
 
 
-**Setting Up a behavioral message**
+**Setting up a behavioral campaign**
 
-There are 4 main sections to a behavioral campaign.
+<div class="alert alert-success top-margin-medium bottom-margin-small">
+  <p class="no-top-margin">
+    <strong>You can now create a behavioural campaign using Vero's new Workflow feature</strong>
+  </p>
+  <p>
+    Read our quick guide to <a href="{{site.data.links.workflows.create_new_workflow}}">creating a new workflow</a>.
+  </p>
+</div>
+
+Simple behavioural emails can also be set up by selecting Campaigns > Behavioural in your Vero account. There are 4 main sections to a behavioural campaign.
 
 
 1. What event do you want to associate/trigger with this campaign?
