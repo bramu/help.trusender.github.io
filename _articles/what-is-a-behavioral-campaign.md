@@ -22,9 +22,9 @@ Here are a few examples:
 Vero’s behavioral emails replace exporting customer data, creating new segments in Excel and uploading new lists. They’re the fastest, easiest way to send highly personalized, timely emails.
 
 
-**Setting up a behavioral campaign**
+## Setting up a behavioral campaign
 
-<div class="alert alert-success top-margin-medium bottom-margin-small">
+<div class="alert alert-success top-margin-small bottom-margin-small">
   <p class="no-top-margin">
     <strong>You can now create a behavioural campaign using Vero's new Workflow feature</strong>
   </p>
@@ -36,20 +36,20 @@ Vero’s behavioral emails replace exporting customer data, creating new segment
 Simple behavioural emails can also be set up by selecting Campaigns > Behavioural in your Vero account. There are 4 main sections to a behavioural campaign.
 
 
-1. What event do you want to associate/trigger with this campaign?
+### 1. What event do you want to associate/trigger with this campaign?
 ![{{ site.data.screenshots.vero.behavioral.trigger_event['title'] }}]({{ site.data.screenshots.vero.behavioral.trigger_event['image'] }}) 
 [More on Events](/articles/what-are-events.html)
 
-2. When do you want this campaign to deploy?
+### 2. When do you want this campaign to deploy?
 ![{{ site.data.screenshots.vero.behavioral.set_timing['title'] }}]({{ site.data.screenshots.vero.behavioral.set_timing['image'] }}) 
 [More on Scheduling and Timing](/articles/scheduling-timing.html)
 
-3. Who do you want to qualify for this message?
+### 3. Who do you want to qualify for this message?
 ![{{ site.data.screenshots.vero.behavioral.campaign_conditions['title'] }}]({{ site.data.screenshots.vero.behavioral.campaign_conditions['image'] }}) 
 *Note: By default if no segment is selected, the "All Segment" which is all your records qualify for is used by default.*
 [More on Targeting/Segments/Conditions](/articles/create-a-segment.html)
 
-4. What message do you want to send?
+### 4. What message do you want to send?
 <br /> 
 You can [configure the email addresses](/articles/adding-to-and-from-email-addresses.html) (both from and to), use [merge tags](/articles/inserting-merge-tags-using-liquid-in-my-emails.html), generate a plain text version, or edit with the HTML with either the rich text editor or use a base template from this section.
 
@@ -65,7 +65,7 @@ You can [configure the email addresses](/articles/adding-to-and-from-email-addre
 Additional steps can be added to a series by selecting the campaign once the initial message is created and then selecting the **Add Email to Series** button on the specific campaign page.
 
 
-**Here is an example overview of a 3-Step Welcome Series:**
+### Here is an example overview of a 3-Step Welcome Series:
 
 ![{{ site.data.screenshots.vero.campaign.series['title'] }}]({{ site.data.screenshots.vero.campaign.series['image'] }})
 
