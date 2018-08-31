@@ -56,7 +56,7 @@ The last step is to setup webhooks in your Vero account with your new URL. To do
 
 ## Replication
 
-Now that you've successfully conected your Vero and Stitch integration, Stitch will continuously replicate your webhook data into your data warehouse.
+Now that you've successfully connected your Vero and Stitch integration, Stitch will continuously replicate your webhook data into your data warehouse.
 
 Because Vero data is sent to Stitch in real-time, Stitch isn't able to load historical data from Vero. As such, Stitch's Vero integration uses _Append-Only Replication_, a type of replication where new data is appended to the end of your data warehouse tables. 
 
