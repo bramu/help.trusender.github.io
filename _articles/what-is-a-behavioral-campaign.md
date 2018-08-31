@@ -26,7 +26,7 @@ Vero’s behavioral emails replace exporting customer data, creating new segment
 
 <div class="alert alert-success top-margin-medium bottom-margin-small">
   <p class="no-top-margin">
-    <strong>You can now create a behavioural campaign using Vero's new Workflow feature</strong>
+    <strong>You can now create a behavioural campaign using Vero's new Workflow feature.</strong>
   </p>
   <p>
     Read our quick guide to <a href="{{site.data.links.workflows.create_new_workflow}}">creating a new workflow</a>.
