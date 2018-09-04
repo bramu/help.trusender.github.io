@@ -59,6 +59,18 @@ zapier:
     image: /assets/screenshots/zapier.tags.png
     title: Tags in Zapier
 vero:
+  push:
+    campaigns:
+      preview:
+        image: /assets/screenshots/vero.push.campaigns.preview.gif
+        title: Preview iOS or Android push notification 
+    providers:
+      aws:
+        image: /assets/screenshots/vero.push.providers.aws.png
+        title: Setup AWS Push Notification provider
+      twilio:
+        image: /assets/screenshots/vero.push.providers.twilio.png
+        title: Setup Twilio Push Notification provider
   add-tag:
     image: /assets/screenshots/vero.add-tag.png
     title: Add a tag in Vero
@@ -289,6 +301,10 @@ vero:
       detail:
         image: /assets/screenshots/vero.integrations.webhooks.detail.png
         title: Vero Webhooks Detail
+    stitch: 
+      generate_url:
+        image: /assets/screenshots/vero.integrations.stitch.generate_url.png
+        title: Generate a Stitch Data URL for Vero
   behavioral:
     trigger_event:  
       image: /assets/screenshots/vero.triggers_the_event.png
@@ -416,4 +432,14 @@ vero:
     new-campaign-event:
       image: /assets/screenshots/vero.events.new-campaign-event.gif
       title: Add an event in the trigger select box on a campaign
-
+  workflows:
+    canvas-overview:
+      image: /assets/screenshots/vero.workflows.canvas-overview.png
+      title: Workflow canvas overview
+    drag-and-drop:
+      image: /assets/screenshots/vero.workflows.drag-drop.png
+      title: Add logic and action steps
+    workflow-insights:
+      image: /assets/screenshots/vero.workflows.insights.png
+      title: Workflow insights
+  

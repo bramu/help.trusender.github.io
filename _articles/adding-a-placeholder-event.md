@@ -14,7 +14,7 @@ It is possible to add events in Vero that act as placeholders for events that ha
 
 ## Adding events in the events manager
 
-The [events manager]({{site.data.links.event-manager}}) shows a list of events that have been tracked via the Vero API ([read about the Vero API here]({{site.data.links.vero_api}})). This list also shows placeholder events created in Vero that have not been tracked yet. To create your own placeholder event, hit the **+ Add Event** button. 
+The [events manager]({{site.data.links.events.event-manager}}) shows a list of events that have been tracked via the Vero API ([read about the Vero API here]({{site.data.links.vero_api}})). This list also shows placeholder events created in Vero that have not been tracked yet. To create your own placeholder event, hit the **+ Add Event** button. 
 
 ![{{ site.data.screenshots.vero.event-manager.add-event['title'] }}]({{ site.data.screenshots.vero.event-manager.add-event['image'] }})
 
