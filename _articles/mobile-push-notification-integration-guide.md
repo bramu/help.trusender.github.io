@@ -23,9 +23,10 @@ layout: articles
 
 ## Definitions
 
-- **Push notification**. A notification sent to an iOS or Android device using those platforms' inbuilt notification infrastructure. A push notification is different from a "web push" message or an SMS.
-- **Push delivery provider**. A service that sends raw push messages to the iOS and Android push notification networks. Vero sits "on top of" your push delivery provider.
-- **Device token**. 
+Throughout this help article, here's what we mean when we use the following terms:
+
+- **Push notification**. A notification sent to an iOS or Android device using Apple or Google's inbuilt notification infrastructure. This is different to a "web push" message or an SMS.
+- **Push delivery provider**. The service that manages your certificates with Apple and Google and sends push messages via those platforms. Vero sits "on top of" your push delivery provider.
 
 ----
 
@@ -33,28 +34,28 @@ layout: articles
 
 ### a. Supported push delivery providers
 
-Vero sends push messages to your customers via popular push delivery providers. At this time we support the following providers:
+Vero sends push messages to your customers by integrating with common and popular push delivery providers. At this time we support the following providers:
 
 - [Amazon SNS](https://aws.amazon.com/sns/)
 - [Twilio Notify](https://www.twilio.com/notify)
 
-These providers enable you to manage your APN, GCM and FCM certificates in a central place (Twilio or Amazon SNS) and use Vero "on top of" your current configuration. This provides enables you to support scenarios where you want or need to leverage these providers directly (outside of Vero).
+These providers enable you to manage your APN, GCM and FCM certificates in a central place. By using Vero "on top of" your current configuration with these providers, you can use Vero alongside direct push messages you send from your application backend with less hassle and less duplication. .
 
-In the future we may provide support for direct APN, GCM and FCM certificate integration: if this is preferable for you, we're keen on your feedback. Please email us at [support@getvero.com](mailto:support@getvero.com).
+In the future we may provide support for direct APN, GCM and FCM certificate integration, rather than sitting on top of Amazon SNS, Twilio Notify and others: if this is of interest to you, we're keen on your feedback. Please email us at [support@getvero.com](mailto:support@getvero.com).
 
 ### b. Enabling push in Vero
 
-Navigate to *Settings > Push Delivery*. Using this menu, you can add one or multiple push provider configurations. To add an integration, select the provider you wish to use and enter the appropriate details. Follow the instructions below for each provider Vero supports.
+Navigate to *Settings > Push Delivery*. Using this menu, you can add one or multiple push provider configurations. To add an integration, select the provider you wish to use and enter the appropriate details. Follow the instructions below for the various providers supports.
 
 #### Amazon SNS
 
 ![{{ site.data.screenshots.vero.push.providers.aws['title'] }}]({{ site.data.screenshots.vero.push.providers.aws['image'] }})
 
-To integrate Vero with Amazon AWS, give your new push delivery provider a name (this is a Vero-internal name for easy identification, it won't be seen by customers). Select the AWS region (e.g. `us-east-1`) in which your AWS SNS account is configured and add an *Access Key ID* and *Secret Access Key*. We recommend creating a new IAM user for your Vero account, specifying specific access to AWS SNS.
+To integrate Vero with Amazon AWS, firstly give your new push delivery provider a name – this is a Vero-internal name for easy identification, it won't be seen by customers. Select the AWS region (e.g. `us-east-1`) in which your AWS SNS account is configured and add an *Access Key ID* and *Secret Access Key*. We recommend creating a new IAM user for your Vero account, specifying specific access to AWS SNS.
 
 Read more about [creating an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in Amazon's help documentation. 
 
-Once you've provided these details, use the *Select a service* dropdown to link your Vero configuration to the appropriate iOS service and/or Android service in SNS.
+Once you've added these details to Vero, use the *Select a service* dropdown to link your Vero configuration to the appropriate iOS service and/or Android service in SNS.
 
 Hit *Save* to store your credentials.
 
@@ -66,24 +67,40 @@ To integrate Vero with Twilio Notify, give your integration a name (this is a Ve
 
 Hit *Save* to store your credentials.
 
-## 2. Configure push notifications in your application and Obtain a Device Token
+## 2. Configure push notifications in your application and obtain a unique device
 
-Configuring push notifications in your iOS or Android application requires code changes to register the device and application for push messages  and, in return, receive a notification token to handle push notification messages.
+As you will be using Vero on top of either Amazon SNS or Twilio, we expect that you will already have the following setup configured to support push notifications:
 
-As you will be using Vero on top of either Amazon SNS or Twilio, and to save you any confusion, we recommend using the Twilio documentation for configuring iOS and Android device registration.
+- Configured your Delivery Provider's integration with Apple and/or Google's Android
+- An application server backing your iOS/Android application
+- Configured your iOS/Android application to register a customer's device, receiving a device token uniquely identifying a certain device
 
-- [Registering for push notifications on iOS](https://www.twilio.com/docs/notify/register-for-notifications-ios)
-- [Registering for push notifications on Android](https://www.twilio.com/docs/notify/register-for-notifications-android)
+Each Delivery Provider has it's own documentation on how to configure the above. For example, for Twilio, we recommend referring to these guides:
 
-**NEED AWS DOCUMENTATION HERE**.
+- [iOS Quickstart](https://www.twilio.com/docs/notify/quickstart/ios){:target="_blank"}
+- [Android Quickstart](https://www.twilio.com/docs/notify/quickstart/android){:target="_blank"}
+- [Registering for push notifications on iOS](https://www.twilio.com/docs/notify/register-for-notifications-ios){:target="_blank"}
+- [Registering for push notifications on Android](https://www.twilio.com/docs/notify/register-for-notifications-android){:target="_blank"}
+
+<div class="alert alert-warning">
+  <p class="no-top-margin">Before you proceed, ensure you have successfully setup your Delivery Provider to register devices and receive basic push messages.</p>
+</div>
 
 ## 3. Identify device tokens with Vero
 
-Now that you've configured token registration, you can begin adding device tokens to your user profiles in Vero. 
+In order to use Vero on top of your Delivery Provider, you must add unique device tokens your user profiles in Vero. 
 
-Ideally, requests to add device tokens to a user's profile should be done from your server backend (rather than your mobile application) and should be made every time the user opens the application. In scenarios where you cannot add this data from your backend server, ensure that calls made directly from your application are made asynchronously and, ideally, are retried if they fail.
+Based on the architecture described in step two above, generally your iOS or Android Client will pass the device token to your application backend. You will then register the unique device token with your Delivery Provider (AWS, Twilio, etc.) from your backend. 
 
-To add a device to the customer profile, you use Vero's API to `identify` a user and provide a new entry to the `channels` by which a customer can be reached. Our [API documentation]() **NEED LINK** covers our `identify` endpoint in detail, but here's the key data you need to add a token to a user:
+At this point, you must update your code to also add the device token to the correct user's profile in Vero. This should be done via your server backend so as to avoid exposing your Vero credentials in the application on the device itself. 
+
+<div class="alert alert-info" class="no-top-margin">
+  <p class="no-top-margin">Every time the device token changes and you register it with your Deliver Provider, you should also add the token to the correct user's profile in Vero.</p>
+</div>
+
+To add a device token to a customer profile in Vero, make a request to Vero's API using the `identify` method that includes the `channels` hash, as in the example below. 
+
+Note that the `type` column should always be `push` for iOS and Android device tokens, and the `platform` column should be either `ios` or `android`, as relevant. Our [API documentation](https://developers.getvero.com/?javascript#users-identify) covers our `identify` endpoint in more detail.
 
 ```
 POST 'https://api.getvero.com/api/v2/users/track'
@@ -98,7 +115,7 @@ POST 'https://api.getvero.com/api/v2/users/track'
     { 
       "type": "push", 
       "address": "UNIQUE_DEVICE_TOKEN", 
-      "platform": "" 
+      "platform": "ios" 
     },
   ]
 }
@@ -106,13 +123,11 @@ POST 'https://api.getvero.com/api/v2/users/track'
 
 ## 4. Tracking push "opens" with Vero
 
-When a push notification is sent to a user's device, they can elect to open or interact with the notification. In doing so, your application will run a "handle message" method to acknowledge and deal with the notification.
+When a push notification is sent to a user's device, your application must handle the incoming push notification. As part of the configuration of your Delivery Provider as outlined in Section 2 above, you will have implemented code to handle incoming notifications.
 
-As part of handling the notification, we recommend tracking the engagement by making a request to Vero's API. We have built a simple API endpoint that makes it possible for you to readily track this data.
+If a user elects to open or interact with your notification, you can track this engagement using Vero's API as part of handling this interaction. To do this, as part of your application's device callback, you need to extract the `message_data` property provided by Vero and make a request to our API. 
 
-### Tracking the engagement in Vero
-
-In order to track the user's open of a push notification, you need to call Vero's API when handling push notifications that are received. As part of your application device callback, you need to extract the `message_data` property provided by Vero and call our API. We've included examples of how to do this on both iOS and Android below.
+We've included examples of how to do this on both iOS and Android below. Note that these are just simple examples and should be used as a guide alongside your own application code.
 
 #### iOS example
 
@@ -186,12 +201,20 @@ Here is an example of how we would recommend handling push notifications and tra
 
 ## 5. Testing push notifications
 
-### Sending a single message
+To test a single push notification, first create a push message campaign in Vero and save it either a _Newsletter_ or a _Workflow_ is fine. You can then select *Preview push* from the dropdown menu on the campaign:
 
-To test a single push notification, first create a push message campaign and save it [LINK TO GUIDE]. You can then select *Preview push* from the dropdown menu on the campaign:
+Using the preview modal, search for and select any user record in your Vero account that has a `device_token` set on their profile. Note that we will search for `device_tokens` that match the platform(s) selected for a given campaign. For example, if you create a new push campaign and select iOS as the platform to target, we will search for users that have an iOS `device_token` set. 
 
-IMAGE HERE
+Once you've selected your test profile, hit _Send_ and we will then deliver a test version of the push message to the device selected.
 
-On the following popup, you can search for and select any user record in your Vero account. We will then deliver a test version of the push message to the account selected, in line with the device preferences set as part of the campaign.
+![{{ site.data.screenshots.vero.push.campaigns.preview['title'] }}]({{ site.data.screenshots.vero.push.campaigns.preview['image'] }})
 
 In order to test a single push notification you need to ensure that you have added test users to your Vero project. This can be done using the API, as described above, or by importing devices and tokens using CSV [LINK].
+
+<div class="alert alert-info">
+  <p class="no-top-margin"><strong>Coming soon.</strong> We are be releasing the ability import device tokens via CSV in the very near future.</p>
+</div>
+
+## 6. Going live
+
+You've now completed an end-to-end test of a push notification to a user profile in Vero. Once you're comfortable your successfully adding device tokens to all of your user profiles in Vero, you can begin sending campaigns to customers at full speed!

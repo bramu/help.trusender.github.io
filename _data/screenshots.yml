@@ -60,6 +60,10 @@ zapier:
     title: Tags in Zapier
 vero:
   push:
+    campaigns:
+      preview:
+        image: /assets/screenshots/vero.push.campaigns.preview.gif
+        title: Preview iOS or Android push notification 
     providers:
       aws:
         image: /assets/screenshots/vero.push.providers.aws.png
