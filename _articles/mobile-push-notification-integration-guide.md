@@ -121,6 +121,10 @@ POST 'https://api.getvero.com/api/v2/users/track'
 }
 ```
 
+<div class="alert alert-warning">
+  <p class="no-top-margin">Don't forget that Vero's API expects a `Content-Type` header of type `application/json`. You can see more examples of requests using our different libraries via our <a href="https://developers.getvero.com/?bash#users-identify" target="_blank">API Reference</a>.</p>
+</div>
+
 ## 4. Tracking push "opens" with Vero
 
 When a push notification is sent to a user's device, your application must handle the incoming push notification. As part of the configuration of your Delivery Provider as outlined in Section 2 above, you will have implemented code to handle incoming notifications.
