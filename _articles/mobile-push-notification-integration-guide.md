@@ -213,7 +213,7 @@ Once you've selected your test profile, hit _Send_ and we will then deliver a te
 
 ![{{ site.data.screenshots.vero.push.campaigns.preview['title'] }}]({{ site.data.screenshots.vero.push.campaigns.preview['image'] }})
 
-In order to test a single push notification you need to ensure that you have added test users to your Vero project. This can be done using the API, as described above, or by importing devices and tokens using CSV [LINK].
+In order to test a single push notification you need to ensure that you have added test users to your Vero project. This can be done using the API, as described above.
 
 <div class="alert alert-info">
   <p class="no-top-margin"><strong>Coming soon.</strong> We are be releasing the ability import device tokens via CSV in the very near future.</p>
