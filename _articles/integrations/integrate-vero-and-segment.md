@@ -60,14 +60,11 @@ Once you’ve tracked data in Segment, you can easily send it to Vero.
     
     You can find your unique API key and Auth token by logging in to your Vero account and navigating to **_Settings > Project   Details_**.
     
-    ![{{ site.data.screenshots.vero.integrations.segment.destinations_settings['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.destinations_settings['image']}})    
+    ![{{ site.data.screenshots.vero.integrations.segment.destinations_settings['title'] }}]({{site.data.screenshots.vero.integrations.segment.destinations_settings['image']}})    
     
-    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_api_key['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.enter_vero_api_key['image']}}) 
+    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_api_key['title'] }}]({{site.data.screenshots.vero.integrations.segment.enter_vero_api_key['image']}}) 
     
-    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['image']}})    
+    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['title'] }}]({{site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['image']}})    
     
 5.  Turn on the Integration.
     
