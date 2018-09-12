@@ -121,6 +121,10 @@ POST 'https://api.getvero.com/api/v2/users/track'
 }
 ```
 
+<div class="alert alert-warning">
+  <p class="no-top-margin">Don't forget that Vero's API expects a `Content-Type` header of type `application/json`. You can see more examples of requests using our different libraries via our <a href="https://developers.getvero.com/?bash#users-identify" target="_blank">API Reference</a>.</p>
+</div>
+
 ## 4. Tracking push "opens" with Vero
 
 When a push notification is sent to a user's device, your application must handle the incoming push notification. As part of the configuration of your Delivery Provider as outlined in Section 2 above, you will have implemented code to handle incoming notifications.
@@ -209,7 +213,7 @@ Once you've selected your test profile, hit _Send_ and we will then deliver a te
 
 ![{{ site.data.screenshots.vero.push.campaigns.preview['title'] }}]({{ site.data.screenshots.vero.push.campaigns.preview['image'] }})
 
-In order to test a single push notification you need to ensure that you have added test users to your Vero project. This can be done using the API, as described above, or by importing devices and tokens using CSV [LINK].
+In order to test a single push notification you need to ensure that you have added test users to your Vero project. This can be done using the API, as described above.
 
 <div class="alert alert-info">
   <p class="no-top-margin"><strong>Coming soon.</strong> We are be releasing the ability import device tokens via CSV in the very near future.</p>

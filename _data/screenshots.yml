@@ -305,6 +305,34 @@ vero:
       generate_url:
         image: /assets/screenshots/vero.integrations.stitch.generate_url.png
         title: Generate a Stitch Data URL for Vero
+    segment: 
+      add_source:
+        image: /assets/screenshots/vero.integrations.segment.connect_vero.png
+        title: Add Vero as a Source in Segment
+      source_setup:
+        image: /assets/screenshots/vero.integrations.segment.source_setup.png
+        title: Give your Segment Source a name
+      config_write_key:
+        image: /assets/screenshots/vero.integrations.segment.config_segment_writekey.png
+        title: Copy your Segment Write Key
+      destinations_catalog:
+        image: /assets/screenshots/vero.integrations.segment.destinations_catalog.png
+        title: Select Vero from the Segment Destinations catalog
+      config_vero:
+        image: /assets/screenshots/vero.integrations.segment.config_vero.png
+        title: Configure Vero in your Segment account
+      destinations_settings:
+        image: /assets/screenshots/vero.integrations.segment.destinations_settings.png
+        title: Add Vero API Key and Auth Token in Segment
+      enter_vero_api_key:
+        image: /assets/screenshots/vero.integrations.segment.enter_vero_apikey.png
+        title: Enter Vero API Key in Segment
+      enter_vero_auth_token:
+        image: /assets/screenshots/vero.integrations.segment.enter_vero_authtoken.png
+        title: Enter Vero Auth Token in Segment
+      turn_on_integration:
+        image: /assets/screenshots/vero.integrations.segment.turn_on_integration.png
+        title: Turn on integration in Segment       
   behavioral:
     trigger_event:  
       image: /assets/screenshots/vero.triggers_the_event.png
