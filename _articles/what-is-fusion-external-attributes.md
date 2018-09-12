@@ -83,6 +83,18 @@ After adding this to your template or email body you can then access the returne
 	{{json.product.product_name}}
 {% endraw %}
 
+## Response codes and retries
+
+Fusion expects to receive a `200` response code in order to send emails.
+
+If a Fusion request receives a `204` response, it will not retry the request and Vero will discard the email immediately. This can be used to tell email to discard certain emails to customers, or to prevent Vero from retrying a failed request. For example, if you didn't want Vero to retry requests, you could develop your API to catch errors and return a `204` in the event of any failure.
+
+If a Fusion request receives anything other than a `200` or `204` response code, it will continue to retry the request up to five times.
+
+<div class="alert alert-info">
+  <p class="no-top-margin">Note that Vero retries emails with failed Fusion requests at increasing intervals. If your endpoint continues to return non-`200` response codes, the fifth attempt could be several hours after the initial request was made.</p>
+</div>
+
 ## Authentication
 
 At this time Fusion only supports basic HTTP Authentication. You can include basic HTTP Authentication details using the format `http://username:password@yoururl.com/data-feed.json`. This is supported by `fetch_html`, `fetch_json` and JSON fetch methods.
