@@ -17,12 +17,13 @@ You can integrate Segment and Vero in one of two ways, or both!
 2. Vero can send email events including delivered, opens, clicks and unsubscribes to Segment and on to your other integrations or/and data warehouses.
 
 **Find out how to:**
+
 - [Send data from **Vero to Segment**](#-Send-data-from-Vero-to-Segment)
 - [Send data from **Segment to Vero**](#-Send-data-from-Segment-to-Vero)
 
 ## Send data from Vero to Segment
 
-1.  Login into <a href="https://segment.com/login">your Segment account</a>, and select a workspace
+1.  Login into [your Segment account](https://segment.com/login), and select a workspace
 2.  Add a new source, search for 'Vero' and click **Connect**
 
     ![{{ site.data.screenshots.vero.integrations.segment.add_source['title'] }}]
@@ -84,7 +85,7 @@ Once you’ve tracked data in Segment, you can easily send it to Vero.
 
     You can now start sending emails and push notifications to your customers with the data sent to Vero via Segment.
 
-    You can read more about this integration in <a href="https://segment.com/docs/integrations/vero/">Segment's help documentation</a>.
+    You can read more about this integration in [Segment's help documentation](https://segment.com/docs/integrations/vero/).
 
 
 
