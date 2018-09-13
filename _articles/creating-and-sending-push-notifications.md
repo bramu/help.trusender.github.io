@@ -35,7 +35,7 @@ IMAGE
 
 #### Inserting dynamic user and event properties/attributes
 
-Using the Advanced editor, you can add Liquid syntax to the Payloads to create personalized messages for your customers. Similar to the email content editor, select **Data** to open the Data Inspector and copy and paste user and event properties into the iOS and Android Payloads.
+Using the Advanced editor, you can add [Liquid syntax]({{site.data.links.articles.insert_merge_tags}}) to the Payloads to create personalized messages for your customers. Similar to the email content editor, select **Data** to open the Data Inspector and copy and paste user and event properties into the iOS and Android Payloads.
 
 IMAGE
 
