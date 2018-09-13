@@ -34,6 +34,7 @@ articles:
   conversion_tracking: /articles/conversion-tracking.html
   external_attributes: /articles/what-are-external-attributes.html
   timing: /articles/scheduling-timing.html
+  push_integration: /articles/mobile-push-notification-integration-guide.html
 reserved-pricing: /articles/lock-in-your-pricing.html
 events:
   event-manager: https://app.getvero.com/events
