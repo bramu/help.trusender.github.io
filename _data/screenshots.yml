@@ -333,8 +333,8 @@ vero:
       config_vero:
         image: /assets/screenshots/vero.integrations.segment.config_vero.png
         title: Configure Vero in your Segment account
-      destinations_settings:
-        image: /assets/screenshots/vero.integrations.segment.destinations_settings.png
+      destination_settings:
+        image: /assets/screenshots/vero.integrations.segment.destination_settings.png
         title: Add Vero API Key and Auth Token in Segment
       enter_vero_api_key:
         image: /assets/screenshots/vero.integrations.segment.enter_vero_apikey.png

@@ -26,18 +26,15 @@ You can integrate Segment and Vero in one of two ways, or both!
 1.  Login into [your Segment account](https://segment.com/login), and select a workspace
 2.  Add a new source, search for 'Vero' and click **Connect**
 
-    ![{{ site.data.screenshots.vero.integrations.segment.add_source['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.add_source['image']}})
+    ![{{ site.data.screenshots.vero.integrations.segment.add_source['title'] }}]({{site.data.screenshots.vero.integrations.segment.add_source['image']}})
     
 3.  Give your Vero source a name
 
-    ![{{ site.data.screenshots.vero.integrations.segment.source_setup['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.source_setup['image']}})
+    ![{{ site.data.screenshots.vero.integrations.segment.source_setup['title'] }}]({{site.data.screenshots.vero.integrations.segment.source_setup['image']}})
 
 4.  Select the Configuration drop-down and copy the **Write Key**.
 
-    ![{{ site.data.screenshots.vero.integrations.segment.config_write_key['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.config_write_key['image']}})
+    ![{{ site.data.screenshots.vero.integrations.segment.config_write_key['title'] }}]({{site.data.screenshots.vero.integrations.segment.config_write_key['image']}})
 
 5.  Log in to Vero and go to **_Settings > Integrations_**
 6.  Select **View** next to the Segment integration
@@ -60,21 +57,17 @@ Once you’ve tracked data in Segment, you can easily send it to Vero.
     
     You can find your unique API key and Auth token by logging in to your Vero account and navigating to **_Settings > Project   Details_**.
     
-    ![{{ site.data.screenshots.vero.integrations.segment.destinations_settings['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.destinations_settings['image']}})    
+    ![{{ site.data.screenshots.vero.integrations.segment.destination_settings['title'] }}]({{site.data.screenshots.vero.integrations.segment.destination_settings['image']}})    
     
-    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_api_key['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.enter_vero_api_key['image']}}) 
+    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_api_key['title'] }}]({{site.data.screenshots.vero.integrations.segment.enter_vero_api_key['image']}}) 
     
-    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['image']}})    
+    ![{{ site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['title'] }}]({{site.data.screenshots.vero.integrations.segment.enter_vero_auth_token['image']}})    
     
 5.  Turn on the Integration.
     
     Turn on your Vero integration by clicking the **Enable Integration** toggle. Any events or users that you track with       Segment will then be available inside Vero automatically.
 
-    ![{{ site.data.screenshots.vero.integrations.segment.turn_on_integration['title'] }}]
-    ({{site.data.screenshots.vero.integrations.segment.turn_on_integration['image']}})  
+    ![{{ site.data.screenshots.vero.integrations.segment.turn_on_integration['title'] }}]({{site.data.screenshots.vero.integrations.segment.turn_on_integration['image']}})  
     
 
 6.  Test your integration
