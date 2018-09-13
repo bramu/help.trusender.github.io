@@ -35,6 +35,7 @@ articles:
   external_attributes: /articles/what-are-external-attributes.html
   timing: /articles/scheduling-timing.html
   push_integration: /articles/mobile-push-notification-integration-guide.html
+  create__and_send_push_notification: /articles/creating-and-sending-push-notifications.html
 reserved-pricing: /articles/lock-in-your-pricing.html
 events:
   event-manager: https://app.getvero.com/events
@@ -45,3 +46,4 @@ workflows:
   create_new_workflow: /articles/creating-a-new-workflow.html
   make_changes_live_workflow: /articles/making-changes-to-a-live-workflow.html
   workflow_insights: /articles/workflow-insights.html
+

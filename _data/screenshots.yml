@@ -71,6 +71,18 @@ vero:
       twilio:
         image: /assets/screenshots/vero.push.providers.twilio.png
         title: Setup Twilio Push Notification provider
+    push-options:
+      image: /assets/screenshots/vero.push.push-options.png
+      title: Choose a push provider and platform
+    push-editor:
+      image: /assets/screenshots/vero.push.push-editor.png
+      title: Select basic or advanced edit mode
+    push-liquid:
+      image: /assets/screenshots/vero.push.push-liquid.png
+      title: Add customer data to your push content via liquid using the data inspector
+    push-user-devices:
+      image: /assets/screenshots/vero.push.push-user-devices.png
+      title: Check to see if a customer can receive a push preview
   add-tag:
     image: /assets/screenshots/vero.add-tag.png
     title: Add a tag in Vero

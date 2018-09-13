@@ -2,7 +2,7 @@
 title: Mobile push notifications – Integration Guide
 description: Setup guide for iOS and Android mobile push notifications in Vero
 categories:
-- mobile push notifications
+- mobile push notifications (Beta)
 layout: articles
 ---
 
@@ -16,7 +16,7 @@ layout: articles
 ## Table of contents
 
 1. [Configure push in your application](#1-configure-push-in-your-account)
-2. [Configure push notifications in your application](#2-configure-push-notifications-in-your-application)
+2. [Configure push notifications in your application](#2-configure-push-notifications-in-your-application-and-obtain-a-unique-device)
 3. [Identify device tokens with Vero](#3-identify-device-tokens-with-vero)
 4. [Tracking push "opens" with Vero](#4-tracking-push-opens-with-vero)
 5. [Testing push notifications](#5-testing-push-notifications)
@@ -205,9 +205,9 @@ Here is an example of how we would recommend handling push notifications and tra
 
 ## 5. Testing push notifications
 
-To test a single push notification, first create a push message campaign in Vero and save it either a _Newsletter_ or a _Workflow_ is fine. You can then select *Preview push* from the dropdown menu on the campaign:
+To test a single push notification, first [create a new push message campaign]({{site.data.links.articles.push_integration}}). You can then select the *Test push* option above the content preview.
 
-Using the preview modal, search for and select any user record in your Vero account that has a `device_token` set on their profile. Note that we will search for `device_tokens` that match the platform(s) selected for a given campaign. For example, if you create a new push campaign and select iOS as the platform to target, we will search for users that have an iOS `device_token` set. 
+Using the preview push modal, search for and select any user record in your Vero account that has a `device_token` set on their profile. Note that we will search for `device_tokens` that match the platform(s) selected for a given campaign. For example, if you create a new push campaign and select iOS as the platform to target, we will search for users that have an iOS `device_token` set. 
 
 Once you've selected your test profile, hit _Send_ and we will then deliver a test version of the push message to the device selected.
 

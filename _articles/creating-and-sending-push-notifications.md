@@ -18,9 +18,9 @@ To **create a push newsletter campaign**: navigate to _Campaigns > Newsletters >
 
 To **add a push notification to a workflow**: navigate to _Campaigns > Workflows > New Workflow_ and select ‘Push’ as an action step. Read more about [setting up a Workflow]({{site.data.links.workflows.create_new_workflow}}) for email and push messages.
 
-Whether you're creating a newsletter campaign or a workflow, for both campaign types you will be give the option to select a Provider and Platform(s).
+Whether you're creating a newsletter campaign or a workflow, for both campaign types you will be given the option to select a Provider and Platform(s).
 
-IMAGE
+![{{ site.data.screenshots.vero.push.push-options['title'] }}]({{ site.data.screenshots.vero.push.push-options['image'] }})
 
 ### Provider
 Vero supports push notification delivery providers Amazon SNS and Twilio Notify. If you haven’t already set up a Provider in your Vero account, please read our [Mobile Push Notifications - Integration guide]({{site.data.links.articles.push_integration}}).
@@ -31,13 +31,13 @@ You will have the option to select which Platforms your push messages will be de
 ### Adding content
 The Content Editor for push notifications is the same for both Newsletter and Workflow campaign types. The basic editor enables you to easily add text, a link and an image (maximum file size 10mb) to your message. The advanced editor is available for those who wish to edit the full JSON payloads. Using the toggle in the top-right you can preview your message on both iOS and Android devices.
 
-IMAGE
+![{{ site.data.screenshots.vero.push.push-editor['title'] }}]({{ site.data.screenshots.vero.push.push-editor['image'] }})
 
 #### Inserting dynamic user and event properties/attributes
 
 Using the Advanced editor, you can add [Liquid syntax]({{site.data.links.articles.insert_merge_tags}}) to the Payloads to create personalized messages for your customers. Similar to the email content editor, select **Data** to open the Data Inspector and copy and paste user and event properties into the iOS and Android Payloads.
 
-IMAGE
+![{{ site.data.screenshots.vero.push.push-liquid['title'] }}]({{ site.data.screenshots.vero.push.push-liquid['image'] }})
 
 #### Maximum payload size for push notifications
 
@@ -55,7 +55,7 @@ As part of [Configuring Mobile Push Notifications in Vero]({{site.data.links.art
 
 You can confirm this by searching for your profile in Vero and checking if you have a device token present on your profile.
 
-IMAGE
+![{{ site.data.screenshots.vero.push.push-user-devices['title'] }}]({{ site.data.screenshots.vero.push.push-user-devices['image'] }})
 
 If so, you can use this profile to send and receive test messages on your own device.
 
