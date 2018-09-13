@@ -22,7 +22,6 @@ Whether you're creating a newsletter campaign or a workflow, for both campaign t
 
 IMAGE
 
-
 ### Provider
 Vero supports push notification delivery providers Amazon SNS and Twilio Notify. If you haven’t already set up a Provider in your Vero account, please read our [Mobile Push Notifications - Integration guide]({{site.data.links.articles.push_integration}}).
 
@@ -30,7 +29,9 @@ Vero supports push notification delivery providers Amazon SNS and Twilio Notify.
 You will have the option to select which Platforms your push messages will be delivered to. You can choose to send to iOS, Android or both.
 
 ### Adding content
-The Content Editor for push notifications is the same for both Newsletter and Workflow campaign types. Using the toggle in the top-right you can preview your message on both iOS and Android devices.
+The Content Editor for push notifications is the same for both Newsletter and Workflow campaign types. The basic editor enables you to easily add text, a link and an image (maximum file size 10mb) to your message. The advanced editor is available for those who wish to edit the full JSON payloads. Using the toggle in the top-right you can preview your message on both iOS and Android devices.
+
+IMAGE
 
 #### Inserting dynamic user and event properties/attributes
 
@@ -50,9 +51,11 @@ Sending iOS and Android push messages requires a “device token”. This device
 
 Device tokens are specific to the combination of your device and the current installation of your mobile application. As such, there isn’t an easy way to find this device token using your mobile – it needs to be generated programmatically.
 
-As part of[Configuring Mobile Push Notifications in Vero]({{site.data.links.articles.push_integration}}), device tokens will be sent across to customer profiles in Vero. Assuming that you can install and use your mobile app on your own phone, if the integration is successful, then registering your own test customer profile by using your application should add your profile to Vero.
+As part of [Configuring Mobile Push Notifications in Vero]({{site.data.links.articles.push_integration}}), device tokens will be sent across to customer profiles in Vero. Assuming that you can install and use your mobile app on your own phone, if the integration is successful, then registering your own test customer profile by using your application should add your profile to Vero.
 
 You can confirm this by searching for your profile in Vero and checking if you have a device token present on your profile.
+
+IMAGE
 
 If so, you can use this profile to send and receive test messages on your own device.
 
