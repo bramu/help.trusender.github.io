@@ -103,23 +103,17 @@ To add a device token to a customer profile in Vero, make a request to Vero's AP
 Note that the `type` column should always be `push` for iOS and Android device tokens, and the `platform` column should be either `ios` or `android`, as relevant. Our [API documentation](https://developers.getvero.com/?javascript#users-identify) covers our `identify` endpoint in more detail.
 
 ```
-POST 'https://api.getvero.com/api/v2/users/track'
-
-{
-  "auth_token": "abc123",
-  "id": "james@getvero.com",
-  "data": { 
-    "age": 30 
-  },
-  "channels": [
-    { 
-      "type": "push", 
-      "address": "UNIQUE_DEVICE_TOKEN", 
-      "platform": "ios" 
-    },
-  ]
-}
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{
+    "auth_token":"YOUR_AUTH_TOKEN",
+    "id":"test@getvero.com",
+    "channels": [{"type": "push", "address": "UNIQUE_DEVICE_TOKEN", "platform": "ios"}]
+  }' \
+  https://api.getvero.com/api/v2/users/track
 ```
+The `platform` field only accepts two values: `ios` and `android`. 
 
 <div class="alert alert-warning">
   <p class="no-top-margin">Don't forget that Vero's API expects a `Content-Type` header of type `application/json`. You can see more examples of requests using our different libraries via our <a href="https://developers.getvero.com/?bash#users-identify" target="_blank">API Reference</a>.</p>

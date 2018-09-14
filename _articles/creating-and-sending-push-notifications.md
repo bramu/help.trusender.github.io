@@ -1,12 +1,19 @@
 ---
-title: Creating and sending mobile push notifications
+title: Mobile push notifications – Creating and sending messages
 description: Guide to creating and sending iOS and Android push notifications
 categories:
 - mobile push notifications (Beta)
 layout: articles
 ---
 
-# Creating and sending mobile push notifications
+# Mobile push notifications – Creating and sending messages
+
+<div class="alert alert-info">
+  <p class="no-top-margin">This feature is currently in <strong>beta</strong>.</p>
+  <p>If you're interested in trying it out, please email us at <a href="mailto:support@getvero.com">support@getvero.com</a>.</p>
+</div>
+
+## Creating a push message
 
 To send your customers mobile push notifications you will need to [configure push notifications]({{site.data.links.articles.push_integration}}) in your Vero account.
 
@@ -43,11 +50,11 @@ Using the Advanced editor, you can add [Liquid syntax]({{site.data.links.article
 
 4KB (4096 bytes) is the maximum payload size for both Apple Push Notification service (APNs) and Android’s Firebase Cloud Messaging (FCM). This is for the entire payload- the text message and any other custom data that is sent with the notification.
 
-# Testing push notifications
+## Testing push notifications
 
 ### a. Create a test profile
 
-Sending iOS and Android push messages requires a “device token”. This device token is generated programmatically by Apple and Google when requested by your mobile application. 
+Sending iOS and Android push messages requires a "device token". This device token is generated programmatically by Apple and Google when requested by your mobile application. 
 
 Device tokens are specific to the combination of your device and the current installation of your mobile application. As such, there isn’t an easy way to find this device token using your mobile – it needs to be generated programmatically.
 
