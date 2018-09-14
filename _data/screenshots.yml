@@ -71,12 +71,13 @@ vero:
       twilio:
         image: /assets/screenshots/vero.push.providers.twilio.png
         title: Setup Twilio Push Notification provider
-    push-options.newsletters:
-      image: /assets/screenshots/vero.push.push-options.newsletters.png
-      title: Choose a push provider and platform in Newsletters
-    push-options.workflows:
-      image: /assets/screenshots/vero.push.push-options.workflows.png
-      title: Choose a push provider and platform in Workflows
+    push-options:
+      newsletters:
+        image: /assets/screenshots/vero.push.push-options.newsletters.png
+        title: Choose a push provider and platform in Newsletters
+      workflows:
+        image: /assets/screenshots/vero.push.push-options.workflows.png
+        title: Choose a push provider and platform in Workflows
     push-editor:
       image: /assets/screenshots/vero.push.push-editor.png
       title: Select basic or advanced edit mode
