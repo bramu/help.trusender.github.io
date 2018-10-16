@@ -177,8 +177,12 @@
   name: English (Botswana)
 - code: en-CA
   name: English (Canada)
+- code: en-FR 
+  name: English (France) 
 - code: en-GU
   name: English (Guam)
+- code: en-DE
+  name: English (Germany)
 - code: en-HK
   name: English (Hong Kong SAR China)
 - code: en-IN
@@ -195,6 +199,8 @@
   name: English (Mauritius)
 - code: en-NA
   name: English (Namibia)
+- code: en-NL
+  name: English (Netherlands)
 - code: en-NZ
   name: English (New Zealand)
 - code: en-MP
