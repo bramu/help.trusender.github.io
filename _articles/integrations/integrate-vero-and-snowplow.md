@@ -8,7 +8,10 @@ layout: articles
 
 <div class="alert alert-success top-margin-medium bottom-margin-small">
   <p class="no-top-margin">
-    <strong>This integration is <a href="{{site.data.links.integrations.snowplow_release_note}}">officially supported by Snowplow</a>.</strong>
+    <strong>This integration is officially supported by Snowplow.</strong>
+  </p>
+  <p>
+    You can read their integration guide <a class="semi-bold" href="{{site.data.links.integrations.snowplow_release_note}}">here</a>.
   </p>
 </div>
 
@@ -26,13 +29,12 @@ Vero’s integration with Snowplow allows you to capture and process all email a
 3.  Go to the <em>Integrations</em> tab.
 4.  Click **View** next to the Custom Integration (Webhooks) option.
 4.  Select **Add Webhooks** Integration.
-6.  In the <em>Notification URL</em> field, you will need to provide the URI to your Snowplow Collector. The URL format for   
-    the Snowplow Collector endpoint is `http://<collector host>/com.getvero/v1`
+6.  In the <em>Notification URL</em> field, you will need to provide the URI to your Snowplow Collector. The URL format for the Snowplow Collector endpoint is: <br/> `http://<collector host>/com.getvero/v1`
 7.  **Save**
 8.  Once the webhook has been saved, you can select the individual events you want to track. Use the checkboxes to select 
     events. We recommended selecting all events so that all events are tracked from the same point in time.
    
-   ![{{ site.data.screenshots.vero.integrations.webhooks.detail['title'] }}]
+   ![{{ site.data.screenshots.vero.integrations.webhooks.detail['title'] }}]({{ site.data.screenshots.vero.integrations.webhooks.detail['image'] }})
     
 9.  **Save** and you’re ready to go! From now on, Vero will send all of the events it generates over to Snowplow.
 

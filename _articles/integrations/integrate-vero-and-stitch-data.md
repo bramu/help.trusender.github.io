@@ -11,7 +11,7 @@ layout: articles
     <strong>This integration is officially supported by Stitch.</strong>
   </p>
   <p>
-    You can read their integration guide <a href="{{site.data.links.integrations.stitch_help_doc}}">here</a>.
+    You can read their integration guide <a class="semi-bold" href="{{site.data.links.integrations.stitch_help_doc}}">here</a>.
   </p>
 </div>
 
