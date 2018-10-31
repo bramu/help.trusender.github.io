@@ -42,6 +42,8 @@ events:
   event-placeholders: /articles/adding-a-placeholder-event.html
 integrations:
   stitch_help_doc: https://www.stitchdata.com/docs/integrations/webhooks/vero
+  snowplow_release_note: https://snowplowanalytics.com/blog/2018/07/17/snowplow-r107-trypillia-released/
+  snowplow_homepage: https://snowplowanalytics.com/products/snowplow-insights/
 workflows:
   create_new_workflow: /articles/creating-a-new-workflow.html
   make_changes_live_workflow: /articles/making-changes-to-a-live-workflow.html
