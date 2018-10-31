@@ -52,7 +52,7 @@ You can find the table definitions here:
 - <a href="https://github.com/snowplow/iglu-central/blob/master/sql/com.getvero/opened_1.sql">com_getvero_opened_1.sql</a>
 - <a href="https://github.com/snowplow/iglu-central/blob/master/sql/com.getvero/sent_1.sql">com_getvero_sent_1.sql</a>
 - <a href="https://github.com/snowplow/iglu-central/blob/master/sql/com.getvero/unsubscribed_1.sql">com_getvero_unsubscribed_1.sql</a>
-- <a href="https://github.com/snowplow/iglu-central/blob/master/sql/com.getvero/unsubscribed_1.sql">com_getvero_updated_1.sql</a>
+- <a href="https://github.com/snowplow/iglu-central/blob/master/sql/com.getvero/updated_1.sql">com_getvero_updated_1.sql</a>
 
 Make sure to deploy this table into the same schema as your events table.
 
