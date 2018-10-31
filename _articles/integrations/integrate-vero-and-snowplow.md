@@ -31,6 +31,9 @@ Vero’s integration with Snowplow allows you to capture and process all email a
 7.  **Save**
 8.  Once the webhook has been saved, you can select the individual events you want to track. Use the checkboxes to select 
     events. We recommended selecting all events so that all events are tracked from the same point in time.
+   
+   ![{{ site.data.screenshots.vero.integrations.webhooks.detail['title'] }}]
+    
 9.  **Save** and you’re ready to go! From now on, Vero will send all of the events it generates over to Snowplow.
 
 
