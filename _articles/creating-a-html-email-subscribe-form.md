@@ -16,7 +16,7 @@ These forms allow you to collect a subscriber or customer's email address, name 
 
 Vero also supports email forms, with one key difference. Traditionally, when a contact fills out an email form they are added to a list. In Vero, rather than being added to a list, a customer that fills out a web form triggers an event. That event could be as simple as `Subscribes to blog`.
 
-You can then use this event to create a segment or [trigger a workflow]{{site.data.links.workflows.create_new_workflow}} to automatically send email and/or push messages: so you get twice the power from a single web form!
+You can then use this event to create a segment or [trigger a workflow]({{site.data.links.workflows.create_new_workflow}}) to automatically send email and/or push messages: so you get twice the power from a single web form!
 
 ## Step 1. Create a form
 
