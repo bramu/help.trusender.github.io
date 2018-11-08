@@ -27,7 +27,8 @@ To **add a push notification to a workflow**: navigate to _Campaigns > Workflows
 
 Whether you're creating a newsletter campaign or a workflow, for both campaign types you will be given the option to select a Provider and Platform(s).
 
-![{{ site.data.screenshots.vero.push.push-options['title'] }}]({{ site.data.screenshots.vero.push.push-options['image'] }})
+![{{ site.data.screenshots.vero.push.push-options.workflows['title'] }}]({{ site.data.screenshots.vero.push.push-options.workflows['image'] }})
+![{{ site.data.screenshots.vero.push.push-options.newsletters['title'] }}]({{ site.data.screenshots.vero.push.push-options.newsletters['image'] }})
 
 ### Provider
 Vero supports push notification delivery providers Amazon SNS and Twilio Notify. If you haven’t already set up a Provider in your Vero account, please read our [Mobile Push Notifications - Integration guide]({{site.data.links.articles.push_integration}}).
@@ -40,13 +41,13 @@ The Content Editor for push notifications is the same for both Newsletter and Wo
 
 ![{{ site.data.screenshots.vero.push.push-editor['title'] }}]({{ site.data.screenshots.vero.push.push-editor['image'] }})
 
-#### Inserting dynamic user and event properties/attributes
+**Inserting dynamic user and event properties/attributes**
 
 Using the Advanced editor, you can add [Liquid syntax]({{site.data.links.articles.insert_merge_tags}}) to the Payloads to create personalized messages for your customers. Similar to the email content editor, select **Data** to open the Data Inspector and copy and paste user and event properties into the iOS and Android Payloads.
 
 ![{{ site.data.screenshots.vero.push.push-liquid['title'] }}]({{ site.data.screenshots.vero.push.push-liquid['image'] }})
 
-#### Maximum payload size for push notifications
+**Maximum payload size for push notifications**
 
 4KB (4096 bytes) is the maximum payload size for both Apple Push Notification service (APNs) and Android’s Firebase Cloud Messaging (FCM). This is for the entire payload- the text message and any other custom data that is sent with the notification.
 
