@@ -168,7 +168,8 @@ Here is an example of how we would recommend handling push notifications and tra
     @Override
     public void onMessageReceived(RemoteMessage message) {
       Map<String,String> data = message.getData();
-    
+      String messageData = data.get("message_data");
+      
       if (messageData != null) {
         try {
           URL url = new URL("https://api.getvero.com/api/v2/notifications/acknowledge");
@@ -181,7 +182,7 @@ Here is an example of how we would recommend handling push notifications and tra
 
           JSONObject jsonParam = new JSONObject();
           jsonParam.put("auth_token", VERO_AUTH_TOKEN);
-          jsonParam.put("message_data", data.get("message_data"));
+          jsonParam.put("message_data", messageData);
 
           DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
           outputStream.writeBytes(jsonParam.toString());
