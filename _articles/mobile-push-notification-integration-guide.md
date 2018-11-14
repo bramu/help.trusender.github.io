@@ -167,7 +167,7 @@ Here is an example of how we would recommend handling push notifications and tra
     */
     @Override
     public void onMessageReceived(RemoteMessage message) {
-      String messageData = data.get("message_data");
+      Map<String,String> data = message.getData();
     
       if (messageData != null) {
         try {
