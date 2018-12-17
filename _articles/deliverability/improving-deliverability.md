@@ -109,7 +109,7 @@ Before we can assign a dedicatd IP address, you must have [authenticated your do
 
 Please  [contact us via support]({{site.data.links.email_us}}) in order to request a dedicated IP. We will let you know if this is the best approach for your scale and size and help you assess whether you have the resources and processes to ensure you can manage a dedicated IP for success.
 
-### 🔋 Bring your own email infrastructure
+### Bring your own email infrastructure
 
 Rather than using Vero's internal infrastructure, Vero allows you to send your emails via dedicated email service providers including Mailgun, Sendgrid and Mailjet. 
 
