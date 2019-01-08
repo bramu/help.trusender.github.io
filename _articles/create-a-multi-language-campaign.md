@@ -16,7 +16,7 @@ In order to tell which language version of an email to send to your customers, V
 
 *Note: Vero does not offer a translation service, multi-language campaigns are best suited for campaigns that have already been translated. For translation services, check out: [Transifex](https://www.transifex.com/) or [Smartling](https://www.smartling.com/)*
 
-## Creating a new multi-language campaign.##
+## Creating a new multi-language campaign
 
 To create a new multi-langauge campaign follow these steps:
 
