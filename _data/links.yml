@@ -32,7 +32,7 @@ articles:
   html_templates: /articles/using-html-templates-in-vero.html
   customer_properties: /articles/what-are-customer-properties.html
   conversion_tracking: /articles/conversion-tracking.html
-  external_attributes: /articles/what-are-external-attributes.html
+  external_attributes: /articles/what-is-fusion-external-attributes.html
   timing: /articles/scheduling-timing.html
   push_integration: /articles/mobile-push-notification-integration-guide.html
   create__and_send_push_notification: /articles/creating-and-sending-push-notifications.html

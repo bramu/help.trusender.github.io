@@ -18,7 +18,7 @@ Sometimes you will track and cookie a customer using a random identifier, or the
 For example, if you had called the `identify` method and tracked a customer with the email **tyrion.lannister@casterlyrock.com** as a subscriber on your blog but, after they signed up for your free trial, wanted to identify them with your database identifier of **1285**, you can use Vero's `re-identify` method to update the customer's profile.
 
 To learn about the re-identify (or alias) method in detail, refer to our 
-[API Reference Documentation](http://www.getvero.com/api).
+[API Reference Documentation](https://developers.getvero.com/?bash#users-alias).
 
 An example of the re-identify method is below:
 
