@@ -486,4 +486,11 @@ vero:
     workflow-insights:
       image: /assets/screenshots/vero.workflows.insights.png
       title: Workflow insights
+  template-conflict:
+      editor:
+        image: /assets/screenshots/vero.template-conflict-editor.png
+        title: Template conflict label in content editor
+      tooltip:
+        image: /assets/screenshots/vero.template-conflict-tooltip.png
+        title: Template conflict label tooltip
   
