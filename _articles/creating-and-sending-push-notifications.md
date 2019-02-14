@@ -8,11 +8,6 @@ layout: articles
 
 # Mobile push notifications – Creating and sending messages
 
-<div class="alert alert-info">
-  <p class="no-top-margin">This feature is currently in <strong>beta</strong>.</p>
-  <p>If you're interested in trying it out, please email us at <a href="mailto:support@getvero.com">support@getvero.com</a>.</p>
-</div>
-
 ## Creating a push message
 
 To send your customers mobile push notifications you will need to [configure push notifications]({{site.data.links.articles.push_integration}}) in your Vero account.
