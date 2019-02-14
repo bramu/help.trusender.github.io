@@ -8,11 +8,6 @@ layout: articles
 
 # Mobile push notifications – Integration Guide
 
-<div class="alert alert-info">
-  <p class="no-top-margin">This feature is currently in <strong>beta</strong>.</p>
-  <p>If you're interested in trying it out, please email us at <a href="mailto:support@getvero.com">support@getvero.com</a>.</p>
-</div>
-
 ## Table of contents
 
 1. [Configure push in your application](#1-configure-push-in-your-account)
