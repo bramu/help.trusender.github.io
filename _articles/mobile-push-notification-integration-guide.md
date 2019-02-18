@@ -2,7 +2,7 @@
 title: Mobile push notifications – Integration Guide
 description: Setup guide for iOS and Android mobile push notifications in Vero
 categories:
-- mobile push notifications (Beta)
+- mobile push notifications 
 layout: articles
 ---
 
