@@ -2,7 +2,7 @@
 title: Mobile push notifications – Creating and sending messages
 description: Guide to creating and sending iOS and Android push notifications
 categories:
-- mobile push notifications (Beta)
+- mobile push notifications
 layout: articles
 ---
 
