@@ -34,4 +34,4 @@ A soft bounce can occur for a number of reasons:
 - The recipient's settings do not allow for email from the sender, 
 - Suspicious or spammy content has been detected.
 
-When an email address returns a soft bounce for five consecutive sends across a 30 day period, Vero automatically marks the customer as unsubscribed. The user is then marked as bounced, as per the details in the *Hard bounces* section above.
+When an email address returns a soft bounce for ten consecutive sends across a 30 day period, Vero automatically marks the customer as unsubscribed. The user is then marked as bounced, as per the details in the *Hard bounces* section above.
