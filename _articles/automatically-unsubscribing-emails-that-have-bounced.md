@@ -12,15 +12,9 @@ Vero automatically handles the subscription status of customers whose emails bou
 
 ## Hard bounces
 
-A hard bounce occurs when an email is rejected by the recieving mail server because the recipient's email address is invalid, disabled, inactive or otherwise permanently unavailable. 
+A hard bounce occurs when an email is rejected by the recieving mail server because the recipient’s email address is invalid, disabled, inactive or otherwise permanently unavailable.
 
-Vero automatically unsubscribes customers whose email addresses are marked with a hard bounce. Currently, this is only managed with Vero's default sending configuration or when you plug your Vero account into Mailgun. 
-
-![{{site.data.screenshots.vero.customers.bounced.title}}]({{site.data.screenshots.vero.customers.bounced.image}})
-
-Vero will mark customers with invalid emails using a warning. You can see this when viewing an individual customer's profile.
-
-In the near future we will support this with our Sendgrid, Mandrill and Dyn integrations.
+Vero automatically suppresses and marks users as "hard bounced" when we receive a `5xx`, permanent failure message from the delivery provider.
 
 ## A soft bounce
 
@@ -34,4 +28,4 @@ A soft bounce can occur for a number of reasons:
 - The recipient's settings do not allow for email from the sender, 
 - Suspicious or spammy content has been detected.
 
-When an email address returns a soft bounce for ten consecutive sends across a 30 day period, Vero automatically marks the customer as unsubscribed. The user is then marked as bounced, as per the details in the *Hard bounces* section above.
+When an email address returns a soft bounce 10 times within a 30 day peirod, Vero automatically suppresses the customer and marks them as "hard bounced".
