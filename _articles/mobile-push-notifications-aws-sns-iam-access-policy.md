@@ -12,15 +12,19 @@ When [integrating mobile push notifications]({{site.data.links.articles.push_int
 
 ### Configuring a user
 
-We recommend adding a new user to your AWS IAM account specifically for use with Vero. This let's you appropriately limit Vero's access to the appropriate AWS SNS platforms, and nothing else.
+We recommend adding a new user to your AWS IAM account specifically for use with Vero. This lets you limit Vero's access to the appropriate AWS SNS platforms, and nothing else.
 
-To setup an AWS user, [follow this guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) . As part of setup you will be asked to assign a policy to the new user. We recommend creating a new policy in line with the section below.
+To setup an AWS user, [follow this guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html). As part of setup you will be asked to assign a policy to the new user. We recommend creating a new policy in line with the section below.
 
 ### Configuring the policy settings for Vero
 
 We typically recommend creating a new security policy to attach to the IAM user that you will use to integrate Vero. For example, you might call this policy `aws-sns-mobile-push-vero`.
 
-We have included an example of a policy below. This includes the minimum access required for Vero to work successfully with AWS. This enables Vero to fetch the your platform endpoints for iOS and Android, add tokens to user profiles and send messages via the resulting AWS ARNs.
+We've included an example of a policy below. Below is an example of a policy describing the minimum access required for Vero to work successfully with AWS. This access includes:
+
+- Fetching the platform endpoints you've configured in AWS for iOS and Android
+- Adding tokens to user profiles in Vero
+- Sending messages via the resulting AWS ARNs
 
 ```
 {
