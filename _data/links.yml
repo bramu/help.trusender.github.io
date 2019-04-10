@@ -36,6 +36,7 @@ articles:
   timing: /articles/scheduling-timing.html
   push_integration: /articles/mobile-push-notification-integration-guide.html
   create__and_send_push_notification: /articles/creating-and-sending-push-notifications.html
+  aws_sns_access_configuration: /articles/mobile-push-notifications-aws-sns-iam-access-policy.html
 reserved-pricing: /articles/lock-in-your-pricing.html
 events:
   event-manager: https://app.getvero.com/events

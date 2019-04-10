@@ -48,7 +48,7 @@ Navigate to *Settings > Push Delivery*. Using this menu, you can add one or mult
 
 To integrate Vero with Amazon AWS, firstly give your new push delivery provider a name – this is a Vero-internal name for easy identification, it won't be seen by customers. Select the AWS region (e.g. `us-east-1`) in which your AWS SNS account is configured and add an *Access Key ID* and *Secret Access Key*. We recommend creating a new IAM user for your Vero account, specifying specific access to AWS SNS.
 
-Read more about [creating an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in Amazon's help documentation. 
+We've written a help article outlining the correct [AWS IAM policy configuration]({{site.data.links.articles.aws_sns_access_configuration}}) to ensure you can use AWS SNS with Vero.
 
 Once you've added these details to Vero, use the *Select a service* dropdown to link your Vero configuration to the appropriate iOS service and/or Android service in SNS.
 

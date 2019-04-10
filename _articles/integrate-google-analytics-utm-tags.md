@@ -27,7 +27,8 @@ Vero will append UTM tags in the following manner:
 - `utm_source` is, by default, set to `vero`.
 - `utm_medium` is, by default, set to `email`. 
 - `utm_campaign` is populated with the name of the campaign being sent.
-- `utm_term` is populated with either the variation being sent. If you do not have an A/B test running, this will be `control`, otherwise it'll be the variation of your campaign (for example, `a` or `b`).
+- `utm_term` is populated with one of `Newsletter`, `Transactional` or `Behavioural`.
+- `utm_content` is populated with either the variation being sent. If you do not have an A/B test running, this will be `control`, otherwise it'll be the variation of your campaign (for example, `a` or `b`).
 
 You can edit the `utm_source` and `utm_medium` values appended by Vero on the *Settings > Integrations* menu page.
 
