@@ -27,7 +27,7 @@ All of Vero's webhooks are sent to a single notification address. To enable the 
 
 ![{{ site.data.screenshots.vero.webhook-setup['title'] }}]({{ site.data.screenshots.vero.webhook-setup['image'] }})
 
-For testing, you should check out [Request Bin](http://requestb.in/) - it's a fantastic way to see the webhooks Vero (or any service) sends.
+For testing, you should check out [Request Bin](https://requestbin.com/) - it's a fantastic way to see the webhooks Vero (or any service) sends.
 
 You can click the **Test URL** button and Vero will send an example of a webhook to the URL you've entered. This ensures Vero has registered the URL correctly and data arrives.
 
@@ -108,7 +108,7 @@ The follow list outlines each of the `type` values:
         }
 
 **Clicked:**
-        
+
         {
             "clicked_at":1435016238,
             "user_agent":"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
@@ -129,7 +129,7 @@ The follow list outlines each of the `type` values:
         }
 
 **Bounced:**
-        
+
         {
             "bounced_at":1435016238,
             "bounce_type":"hard",
