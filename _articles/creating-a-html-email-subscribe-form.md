@@ -20,7 +20,7 @@ You can then use this event to create a segment or [trigger a workflow]({{site.d
 
 ## Step 1. Create a form
 
-To generate a form, head to *Froms* and you'll be shown Vero's point-and-click interface to create a form:
+To generate a form, head to *Forms* and you'll be shown Vero's point-and-click interface to create a form:
 
 ![{{ site.data.screenshots.vero.subscribe-form-properties['title'] }}]({{ site.data.screenshots.vero.subscribe-form-properties['image'] }})
 
