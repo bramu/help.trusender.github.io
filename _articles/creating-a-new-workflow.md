@@ -56,11 +56,14 @@ All workflow steps can be easily added and moved around using drag and drop, giv
 
 - **Email**
 
-  You can add emails to your workflow and create/edit the email content from the workflow screen. The aim of all Workflows is to allow you to engage with your customers at the right time in their journey.
+  You can add emails to your workflow and create/edit the email content from the workflow screen. The aim of all Workflows is 
+  to allow you to engage with your customers at the right time in their journey.
 
 - **Mobile push notifications** 
 
-You can also add mobile push notifications to your workflow, allowing you to choose the best channel for your message. Vero support both iOS and Android push notifications. You can access the editor for push notifications directly from the workflow. The basic and advanced editors work seamlessly across both iOS and Android platforms, making it easy for you to create, edit and preview each message in your workflow.
+  You can also add mobile push notifications to your workflow, allowing you to choose the best channel for your message. Vero   support both iOS and Android push notifications. You can access the editor for push notifications directly from the     
+  workflow. The basic and advanced editors work seamlessly across both iOS and Android platforms, making it easy for you to   
+  create, edit and preview each message in your workflow.
 
 
 ## 3. Add a Conversion Goal
