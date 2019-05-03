@@ -486,6 +486,9 @@ vero:
     workflow-insights:
       image: /assets/screenshots/vero.workflows.insights.png
       title: Workflow insights
+    transactional-workflow:
+      image: /assets/screenshots/vero.workflows.transactional.png
+      title: Create a transactional workflow
   template-conflict:
       editor:
         image: /assets/screenshots/vero.template-conflict-editor.png
@@ -493,4 +496,5 @@ vero:
       tooltip:
         image: /assets/screenshots/vero.template-conflict-tooltip.png
         title: Template conflict label tooltip
+   
   
