@@ -55,6 +55,7 @@ All workflow steps can be easily added and moved around using drag and drop, giv
 ### Action steps:
 
 - **Email**
+
   You can add emails to your workflow and create/edit the email content from the workflow screen. Workflows allow you to engage with your customers at the right time in their journey.
 
 - **Mobile push notifications** 
