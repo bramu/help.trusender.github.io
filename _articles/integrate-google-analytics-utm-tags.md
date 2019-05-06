@@ -41,3 +41,11 @@ For example, if you added a link as follows:
 	http://www.yoursite.com?utm_campaign=some_campaign_name
 
 Then Vero would only append the `utm_source`, `utm_term` and `utm_medium` tags. It would not overwrite your custom `utm_campaign` value on this link.
+
+## Disabling tags on an individual link
+
+You can also prevent a particular link from appending UTM tags by adding `data-vero="ignore"`. This will ensure that all other links are unaffected and still maintain their UTM tags.  
+
+For example, add the setting to your link as follows:
+
+<pre><code>&lt;a data-vero="ignore" href="app.getvero.com"&gt;Log into my Vero account&lt;/a&gt;</pre></code>
