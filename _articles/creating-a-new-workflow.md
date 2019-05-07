@@ -74,11 +74,11 @@ You can change the goal conversion period via **Settings** > **Advanced**.
 
 ## 4. Creating a transactional workflow
 
-All workflows are [behavioural]({{site.data.links.behavioral_campaign}}) by default. If you'd like to create a workflow for [transactional messages]({{site.data.links.transactional_campaign}}) (For example, to send, password reset information, invoices or receipts) you can select 'transactional workflow' by ticking the box in the side bar.
+All workflows are [behavioral](/articles/what-is-a-behavioral-campaign.html) by default. If you'd like to create a workflow for [transactional messages](/articles/transactional-email-campaigns.html) (For example, to send, password reset information, invoices or receipts) you can select 'transactional workflow' by ticking the box in the side bar.
 
 ![{{ site.data.screenshots.vero.workflows.transactional-workflow['title'] }}]({{ site.data.screenshots.vero.workflows.transactional-workflow['image'] }})
 
-**Please note**: By ticking the box and making your workflow transactional, all emails and push notification messages in that workflow will be sent to subscribed AND unsubscribed customers. These types of workflows should only be used in scenarios where an email is required to complete a transaction with a customer. For example: Receipts, invoices or forgotten passwords. Read more about the rules on [transactional emails]({{site.data.links.articles.transactional_campaign}}).
+**Please note**: By ticking the box and making your workflow transactional, all emails and push notification messages in that workflow will be sent to subscribed AND unsubscribed customers. These types of workflows should only be used in scenarios where an email is required to complete a transaction with a customer. For example: Receipts, invoices or forgotten passwords. Read more about the rules on [transactional emails](/articles/transactional-email-campaigns.html).
 
 ## 5. Save and publish your workflow
 
