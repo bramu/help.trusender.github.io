@@ -1,30 +1,30 @@
 ---
-title: Creating a HTML email subscribe form
+title: Creating an HTML email subscribe form
 description: If you are coming from an email service provider such as Mailchimp, you will be familiar with the concept of HTML-based email forms.
 categories:
 - configuration
 layout: articles
 ---
 
-# Creating a HTML email subscribe form
+# Creating an HTML email subscribe form
 
 If you are coming from an email service provider such as Mailchimp, you will be familiar with the concept of HTML-based email forms.
 
-These forms allow you to collect a subscriber or customer's email address, name and other (custom) details easily using a little HTML on your website.
+These forms allow you to collect a subscriber or customer's email address, name, and other (custom) details easily using a little HTML on your website.
 
-## Vero subscibe forms
+## Vero subscribe forms
 
-Vero also supports email forms, with one key difference. Traditionally, when a contact fills out an email form they are added to a list. In Vero, rather than being added to a list, a customer that fills out a web form triggers an event. That event could be as simple as `Subscribes to blog`.
+Vero also supports email forms, with one key difference. Traditionally, when a contact fills out an email form, they are added to a list. In Vero, rather than being added to a list, a customer that fills out a web form triggers an event. That event could be as simple as `Subscribes to blog`.
 
 You can then use this event to create a segment or [trigger a workflow]({{site.data.links.workflows.create_new_workflow}}) to automatically send email and/or push messages: so you get twice the power from a single web form!
 
 ## Step 1. Create a form
 
-To generate a form, head to *Froms* and you'll be shown Vero's point-and-click interface to create a form:
+To generate a form, head to *Forms* and you'll be shown Vero's point-and-click interface to create a form:
 
 ![{{ site.data.screenshots.vero.subscribe-form-properties['title'] }}]({{ site.data.screenshots.vero.subscribe-form-properties['image'] }})
 
-Vero forms always collect the customers `email` but you can collect any fields you want. We will show you fields you've collected in the past on the left hand side.
+Vero forms always collect the customer's `email address`, but you can collect any fields you want. You can view the fields you've used in previously, on the left-hand side.
 
 You must then define the event that will be triggered when the customer fills out this particular form.
 
@@ -44,4 +44,4 @@ By default, we'll show them a confirmation screen that looks like this:
 
 ![{{ site.data.screenshots.vero.subscribe-form-success'title'] }}]({{ site.data.screenshots.vero.subscribe-form-success['image'] }})
 
-You can define a screen if the customers fails to complete the form successfully (i.e. enter an invalid email) or when they do complete the form successfully. Generally this would be a custom "Thanks for subscribing" page.
+You can define a screen/landing page to direct contacts to if they fail to complete the form successfully (i.e., enter an invalid email) or when they do complete the form successfully. Generally, this would be a custom "Thanks for subscribing" page.
