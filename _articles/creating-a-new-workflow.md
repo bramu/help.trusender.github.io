@@ -60,7 +60,9 @@ All workflow steps can be easily added and moved around using drag and drop, giv
 
 - **Mobile push notifications** 
 
-  You can also add mobile push notifications to your workflow, allowing you to choose the best channel for your message. Vero supports both iOS and Android push notifications. You can access the editor for push notifications directly from the workflow. The basic and advanced editors work seamlessly across both iOS and Android platforms, making it easy for you to create, edit and preview each message in your workflow.
+  You can also add mobile push notifications to your workflow. Vero supports both iOS and Android push notifications.
+  
+  You can access the editor for push notifications directly from the workflow. The basic and advanced editors work seamlessly across both iOS and Android platforms, making it easy for you to create, edit and preview each message in your workflow.
 
 ## 3. Add a Conversion Goal
 
@@ -72,9 +74,9 @@ You can change the goal conversion period via **Settings** > **Advanced**.
 
 ## 4. Creating a transactional workflow
 
-All workflows are [behavioural]({{site.data.links.articles.behavioral_campaign}}) by default. If you'd like to create a workflow for [transactional messages]({{site.data.links.articles.transactional_campaign}}) (For example, to send, password reset information, invoices or receipts) you can select 'transactional workflow' by ticking the box in the side bar.
+All workflows are [behavioural]({{site.data.links.behavioral_campaign}}) by default. If you'd like to create a workflow for [transactional messages]({{site.data.links.transactional_campaign}}) (For example, to send, password reset information, invoices or receipts) you can select 'transactional workflow' by ticking the box in the side bar.
 
-![{{ site.data.screenshots.vero.workflows.transactional['title'] }}]({{ site.data.screenshots.vero.workflows.transactional['image'] }})
+![{{ site.data.screenshots.vero.workflows.transactional-workflow['title'] }}]({{ site.data.screenshots.vero.workflows.transactional-workflow['image'] }})
 
 **Please note**: By ticking the box and making your workflow transactional, all emails and push notification messages in that workflow will be sent to subscribed AND unsubscribed customers. These types of workflows should only be used in scenarios where an email is required to complete a transaction with a customer. For example: Receipts, invoices or forgotten passwords. Read more about the rules on [transactional emails]({{site.data.links.articles.transactional_campaign}}).
 
