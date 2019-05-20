@@ -16,7 +16,7 @@ Read our guide to [Transactional emails - including types, best practices and ex
 
 ## Transactional emails and push notifications
 
-You can send a both emails and push notifications as transactional campaigns using Workflows in Vero. Workflows are set to behavioral by default, with a tick box option for [creating transactional workflows](/articles/creating-a-new-workflow.html).
+You can send both emails and push notifications as transactional campaigns using Workflows in Vero. Workflows are set to behavioral by default, with a tick box option for [creating transactional workflows](/articles/creating-a-new-workflow.html).
 
 ## Priority handling of transactional emails 
 
