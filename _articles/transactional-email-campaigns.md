@@ -12,9 +12,11 @@ Transactional campaigns are messages that provide important account or transacti
 
 Transactional campaigns are sent to customers when they trigger a specific event and cannot be unsubscribed from. For this reason, they are **not** marketing campaigns and should be used very carefully. Receipts, invoices and account statements are examples of a transactional campaign. They are communications the customer needs in order to conduct business with you so cannot opt out.
 
+Read our guide to [Transactional emails - including types, best practices and examples](https://www.getvero.com/resources/guides/lifecycle-marketing/transactional-emails). 
+
 ## Transactional emails and push notifications
 
-You can send a transactional campaign as either an email or push notification. Creating a transactional campaign is identical to [behavioral campaign](/articles/what-is-a-behavioral-campaign.html), except for the way unsubscribes are handled by Vero. Workflows are set to behavioral by default, with a tick box option for [creating transactional workflows](/articles/creating-a-new-workflow.html).
+You can send both emails and push notifications as transactional campaigns using Workflows in Vero. Workflows are set to behavioral by default, with a tick box option for [creating transactional workflows](/articles/creating-a-new-workflow.html).
 
 ## Priority handling of transactional emails 
 
