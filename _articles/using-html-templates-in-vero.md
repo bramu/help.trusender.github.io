@@ -1,5 +1,5 @@
 ---
-title: Using HTML templates in Vero
+title: Using HTML templates with dynamic blocks
 description: Vero gives you the ability to bring your own template. Vero supports media queries and fully responsive HTML templates.
 categories:
 - email design
@@ -19,7 +19,7 @@ To make the most of Vero's templates you can mark images, heading, paragraph blo
 
 Vero's WYSIWYG editor highlights `vero-editable` blocks with an *Edit* button, as in the above screenshot.
 
-## Adding vero-editable blocks
+## Adding editable sections
 
 To make a section of a HTML template `vero-editable` in the WYSIWYG editor, all you need to add the CSS class `vero-editable` to the HTML element you want to make editable.
 
