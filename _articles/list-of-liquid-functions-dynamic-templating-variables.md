@@ -8,6 +8,87 @@ common_issues: true
 ---
 
 # List of Liquid functions / dynamic templating variables
+
+## Vero Templating Variables
+
+### `event`
+Event Properties tracked with the event:
+
+Example:
+
+      {% raw %}
+        {{ event.product_title }}
+      {% endraw %}
+
+### `user`
+User Properties tracked on the Customer:
+
+Example:
+
+      {% raw %}
+        {{ user.first_name }}
+      {% endraw %}
+
+### `email`
+Campaign related information, contains properties: `campaign_name`, `email_name`, `email_test_name`
+
+Example:
+
+      {% raw %}
+        Series (if applicable): {{ email.campaign_name }} Title: {{ email.email_name }} Test: {{ email.email_test_name }} 
+      {% endraw %}
+
+### `extra`
+Event related metadata, contains properties: 
+  - `time`
+    - `time.event` The event's triggered_at timestamp
+    - `time.now`   The current timestamp
+  - `variation_id`
+  - `campaign_id`
+  - `campaign_type`
+
+### `environment`
+Project details, contains properties: `project_id`, `project_name`
+
+Example
+
+      {% raw %}
+        Project ID: {{ environment.project_id }} Project Name: {{ environment.project_name }}
+      {% endraw %}
+
+### `url`
+Various URLs, contains properties: 
+  - `permalink`
+  - `permalink_link`
+  - `permalink_url`
+  - `unsubscribe`
+  - `unsubscribe_link`
+  - `unsubscribe_url`
+  - `opt_in`
+  - `opt_in_link`
+  - `opt_in_url`
+  - `remove_preferences_links`
+
+### `unsubscribe`
+Shortcut alias for `{{ url.unsubscribe }}`
+
+### `permalink`
+Shortcut alias for `{{ url.permalink }}`
+
+### `utm`
+Google UTM tags, contains properties:
+  - `source`
+  - `medium`
+  - `content`
+  - `campaign`
+  - `term`
+
+### `\_setting`
+Various Project Wide settings, contains properties:
+  - `max_fetch_html_per_second`
+  - `max_fetch_external_attributes_per_second`
+  - `fetch_html:cache`
+  - `extern_att:cache`
     
 ## Number precision
 
