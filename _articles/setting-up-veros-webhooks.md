@@ -63,7 +63,8 @@ The follow list outlines each of the `type` values:
                 "trigger-event":"purchased item",
                 "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
                 "variation":"Variation A"
-            }
+            },
+            "message_id": "20190730123456.1.1B72E094173067F0F@veromail.com"
         }
 
 **Delivered:**
@@ -83,7 +84,8 @@ The follow list outlines each of the `type` values:
                 "trigger-event":"purchased item",
                 "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
                 "variation":"Variation A"
-            }
+            },
+            "message_id": "20190730123456.1.1B72E094173067F0F@veromail.com"
         }
 
 **Opened:**
@@ -104,7 +106,8 @@ The follow list outlines each of the `type` values:
                 "trigger-event":"purchased item",
                 "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
                 "variation":"Variation A"
-            }
+            },
+            "message_id": "20190730123456.1.1B72E094173067F0F@veromail.com"
         }
 
 **Clicked:**
@@ -125,7 +128,8 @@ The follow list outlines each of the `type` values:
                 "trigger-event":"purchased item",
                 "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
                 "variation":"Variation A"
-            }
+            },
+            "message_id": "20190730123456.1.1B72E094173067F0F@veromail.com"
         }
 
 **Bounced:**
@@ -146,7 +150,8 @@ The follow list outlines each of the `type` values:
                 "trigger-event":"purchased item",
                 "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
                 "variation":"Variation A"
-            }
+            },
+            "message_id": "20190730123456.1.1B72E094173067F0F@veromail.com"
         }
 
 **Unsubscribed:**
