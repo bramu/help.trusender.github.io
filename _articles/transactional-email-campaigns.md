@@ -8,7 +8,7 @@ layout: articles
 
 # What is a transactional campaign?
 
-Transactional campaigns are sent to all customers including those who are unsubscribed. These messages should provide important account or transaction information, such as password resets, receipts or delivery/shipping confirmation. They are **not** marketing campaigns and should be very carefully used for communications the customer needs in order to conduct business with you.
+Transactional campaigns are sent to all customers including those who are unsubscribed. These messages should only be used to deliver important information about a customer's account or transaction such as password resets, receipts or delivery/shipping confirmation. They are **not** marketing campaigns and should be very carefully used for communications the customer needs in order to conduct business with you.
 
 Read our guide to [Transactional emails - including types, best practices and examples](https://www.getvero.com/resources/guides/lifecycle-marketing/transactional-emails). 
 
