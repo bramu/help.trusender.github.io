@@ -63,7 +63,7 @@ vero:
     campaigns:
       preview:
         image: /assets/screenshots/vero.push.campaigns.preview.gif
-        title: Preview iOS or Android push notification 
+        title: Preview iOS or Android push notification
     providers:
       aws:
         image: /assets/screenshots/vero.push.providers.aws.png
@@ -181,6 +181,9 @@ vero:
       image: /assets/screenshots/vero.segments.tags.png
       title: Segment customers by tag
   campaign:
+    transactional-newsletter:
+      image: /assets/screenshots/vero.campaign.newsletter.transactional.png
+      title: Create a transactional newsletter
     use-segment:
       image: /assets/screenshots/vero.campaign.use-segment.png
       title: Campaign using paying customers
@@ -317,11 +320,11 @@ vero:
       detail:
         image: /assets/screenshots/vero.integrations.webhooks.detail.png
         title: Vero Webhooks Detail
-    stitch: 
+    stitch:
       generate_url:
         image: /assets/screenshots/vero.integrations.stitch.generate_url.png
         title: Generate a Stitch Data URL for Vero
-    segment: 
+    segment:
       add_source:
         image: /assets/screenshots/vero.integrations.segment.connect_vero.png
         title: Add Vero as a Source in Segment
@@ -348,12 +351,12 @@ vero:
         title: Enter Vero Auth Token in Segment
       turn_on_integration:
         image: /assets/screenshots/vero.integrations.segment.turn_on_integration.png
-        title: Turn on integration in Segment       
+        title: Turn on integration in Segment
   behavioral:
-    trigger_event:  
+    trigger_event:
       image: /assets/screenshots/vero.triggers_the_event.png
       title: Set Trigger Event
-    set_timing:  
+    set_timing:
       image: /assets/screenshots/vero.set_campaign_timing.png
       title: Set Campaign Timing
     campaign_conditions:
@@ -496,5 +499,5 @@ vero:
       tooltip:
         image: /assets/screenshots/vero.template-conflict-tooltip.png
         title: Template conflict label tooltip
-   
-  
+
+
