@@ -16,7 +16,7 @@ $ bundle install
 Then start the jekyll server:
 
 ```sh
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Jekyll has [some nice documentation](http://jekyllrb.com/docs/usage/) to get you started.
