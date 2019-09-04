@@ -62,7 +62,7 @@ Follow these steps in the SendGrid guide: [Setting Up Universal Links Using Clou
 
 Where it talks about "the domain your link branding is configured for", it is referring to the domain mailgun uses in your click-tracked links (eg. email.example.com).
 
-** Be careful! Be sure to replace all references (such as Origin Domain Name) to `sendgrid.net` with `mailgun.org`. **
+*Be careful! Be sure to replace all references (such as Origin Domain Name) to `sendgrid.net` with `mailgun.org`.*
 
 ### Flag your deeplinks
 
