@@ -400,9 +400,9 @@ vero:
       title: Vero double opt in
       image: /assets/screenshots/vero.settings.opt-in.png
     email-delivery:
-      unverified:
-        title: Custom DNS Vero unverified
-        image: /assets/screenshots/vero.settings.email-delivery.unverified.png
+      mark-as-default:
+        title: Mark provider as default
+        image: /assets/screenshots/vero.settings.email-delivery.mark-as-default.png
       verified:
         title: Custom DNS Vero verified
         image: /assets/screenshots/vero.settings.email-delivery.verified.png
