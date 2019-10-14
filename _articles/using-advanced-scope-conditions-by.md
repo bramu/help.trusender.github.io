@@ -6,9 +6,9 @@ categories:
 layout: articles
 ---
 
-# Scope a behavioral email by event property (the advanced 'scope by' feature)
+# Scope a campaign by event property (the advanced 'scope by' feature)
 
-Vero's `scope by` filter is an advanced feature of behavioral campaigns. The best way to illustrate the `scope by` feature is an example.
+The `scope by` filter is an advanced feature of event based campaigns in Vero. The best way to illustrate the `scope by` feature is an example.
 
 Imagine you are an eCommerce store, selling products *A*, *B* and *C* and that you track an event in Vero called `Viewed product` whenever a customer views any of your products, whenever a customer purchases a product, you also track an event called `Purchased product`.
 
@@ -24,9 +24,10 @@ In this example, you would likely track the following event properties with your
 }
 ~~~
 
-You setup a behavioral campaign that targets users that view a product but don't purchase it. You might setup a campaign like this:
+<br>
+You setup an workflow that targets users that view a product but don't purchase it. You might setup a campaign like this:
 
-![{{ site.data.screenshots.vero.triggered-abandonment-campaign.title }}]({{  site.data.screenshots.vero.triggered-abandonment-campaign.image }})
+![{{ site.data.screenshots.vero.triggered-abandonment-workflow.title }}]({{  site.data.screenshots.vero.triggered-abandonment-workflow.image }})
 
 If a customer triggered `Viewed product` for products *A*, *B* **and** *C*, this campaign would be triggered for evaluation three times. 
 
@@ -40,6 +41,6 @@ When evaluating the campaign, Vero will check that **both** the `Viewed product`
 
 Here is an example of how you would configure this in Vero:
 
-![{{ site.data.screenshots.vero.advanced-scope-by-triggered-email['title'] }}]({{  site.data.screenshots.vero.advanced-scope-by-triggered-email['image'] }})
+![{{ site.data.screenshots.vero.advanced-scope-by-workflows['title'] }}]({{  site.data.screenshots.vero.advanced-scope-by-workflows['image'] }})
 
 In this scenario, if a customer viewed products *A*, *B* **and** *C* and then purchased product *A*, they would not get a follow up email for product *A*, but they would still get a follow up email for products *B* and *C*.
