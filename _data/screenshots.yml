@@ -118,9 +118,15 @@ vero:
   triggered-abandonment-campaign:
     image: /assets/screenshots/vero.triggered-abandonment-campaign.png
     title: Triggered abandonment campaign
+  triggered-abandonment-workflow:
+    image: /assets/screenshots/vero.triggered-abandonment-workflow.png
+    title: Triggered abandonment workflow
   advanced-scope-by-triggered-email:
     image: /assets/screenshots/vero.advanced-scope-by-triggered-email.png
     title: Scoped conditions triggered abandonment campaign
+  advanced-scope-by-workflows:
+    image: /assets/screenshots/vero.advanced-scope-by-workflows.png
+    title: Scoped conditions in a workflow
   clone-email:
     image: /assets/screenshots/vero.clone-email.png
     title: Cloning an email
