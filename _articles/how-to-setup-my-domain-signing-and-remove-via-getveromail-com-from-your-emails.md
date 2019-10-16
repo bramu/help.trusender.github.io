@@ -26,9 +26,9 @@ By setting up a custom domain your recipients will no longer see the `via xyz.co
     
 Note that you might see `via getveromail.com`, `via veromailer.com` or some other domain as we send from multiple domains to ensure maximum deliverability for all our customers. 
     
-## Adding a custom domain provider
+## Adding and verifiying your custom domain
 
-Adding a custom domain as a new provider in Vero is easy. However, in order to verify your domain you will need to add two to three records to your domain's DNS configuration. 
+Adding a custom domain in Vero is easy. However, in order to verify your domain you will need to add some DNS records to your domain configuration, wherever you manage your domain. 
 
 Follow these steps to start using your custom domain:
 
