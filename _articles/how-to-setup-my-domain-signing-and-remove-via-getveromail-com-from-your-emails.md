@@ -8,9 +8,9 @@ layout: articles
 
 # Sending your emails from a custom domain
     
-By default, Vero will send your emails using a shared IP and domain configuration. We use a variety of domains and tiers to help ensure we get customers emails into inboxes. We work with [Mailgun]({{site.data.links.mailgun}}) to deliver your emails.   
+By default, Vero will send your emails using a shared IP and domain configuration. We use a variety of shared domains and tiers to help ensure we get customers' emails into inboxes. We work with [Mailgun]({{site.data.links.mailgun}}) to deliver your emails.   
     
-To improve your deliverability, we recommend [adding your own custom domain](#adding-a-custom-domain-provider). With a custom domain added, we will continue to use our own infrastructure to send your emails, but we will enable domain signing, which tells your recipients' mail servers that you are authenticated to send from your domain.
+To improve your deliverability, we recommend [adding your own custom domain](#adding-a-custom-domain-provider). With a custom domain added we will continue to use our own infrastructure to send your emails, but we will enable domain signing, which tells your recipients' mail servers that you are authenticated to send from your domain.
     
 This also means that Vero is truly invisible to your customers.   
     
@@ -24,19 +24,19 @@ Email clients will show this because the domain of the *From address* used to se
     
 By setting up a custom domain your recipients will no longer see the `via xyz.com` message.   
     
-Note that you might see `via getveromail.com`, `via veromailer.com` or some other domain as we send from multiple domains to ensure maximum deliverability for all our customers. 
+Note that you might see `via getveromail.com`, `via veromailer.com` or some other domain as we send from multiple shared domains to ensure maximum deliverability for all our customers. 
     
 ## Adding and verifiying your custom domain
 
-Adding a custom domain in Vero is easy. However, in order to verify your domain you will need to add some DNS records to your domain configuration, wherever you manage your domain. 
+Adding a custom domain in Vero is easy. However in order to verify your domain you will need to add some DNS records to your domain configuration, wherever you manage your domain. 
 
 Follow these steps to start using your custom domain:
 
 1. Navigate to your project settings by going to app.getvero.com/settings/email-delivery and click on 'Add Custom Domain' at the bottom of the page.
 2. Give your domain a 'Name' (this is useful if you need more than one custom domain per project).
 3. Enter your domain name exctly into the 'Domain' field, and then hit 'Save'.
-4. Once saved, Vero will generate and display the SPF (TXT), DKIM (TXT), CNAME and MX records you need to add to your domain's DNS configuration settings. **Do this before continuing to the next step**. Please refer to your domain hosts help documentation.
-5. Once you have added these DNS records to the settings of wherever you manage your domain, hit the 'Verify Records' button so we can validate that they have been correctly configured. Note that it can take as many as 24 hours for your DNS records to propagate and for Vero to recognise the valid records.
+4. Once saved, Vero will generate and display the SPF (TXT), DKIM (TXT), CNAME and MX records you need to add to your domain's DNS configuration settings. **Do this before continuing to the next step**. Please refer to your domain hosts help documentation, this is where you manage your domain internally.
+5. Once you have added these DNS records to the settings of your domain host, hit the 'Verify Records' button so we can validate that they have been correctly configured. Note that it can take as many as 24 hours for your DNS records to propagate and for Vero to recognise the valid records.
 
 Once your domain has been verified, you can select this domain from the 'Email provider' in the advanced settings dropdown on each campaign or email workflow node. You can also mark as default to make sure all emails are sent via this domain. 
     
@@ -48,7 +48,7 @@ If you need some help during any of these steps, don't hesitate to [get in touch
 
 ## Marking your custom domain as the default provider
 
-When you add a custom domain, it is considered as a separate email provider, this is useful if you want to send from multiple domains in the same project.
+When you add a custom domain, it is considered an additional sending domain, this is useful if you want to send from multiple domains in the same project.
 
 If you want to make sure all emails sent from Vero use a specific custom domain, you can mark it as the default by navigating to settings > email-delivery and hitting 'Mark as Default' on one of the listed providers or custom domains.
 
@@ -56,8 +56,8 @@ If you want to make sure all emails sent from Vero use a specific custom domain,
     
 ## Setting up a custom CNAME   
     
-By default, we provide a CNAME record for the subdomain `email.yourdomain.com`. This CNAME is used to track links.
+This CNAME is used to track opens and clicks. Given this is crucial for reporting on your email campaigns we generate a CNAME record for your custom domain by default. The hostname generated will always begin with `email`, for example `email.yourdomain.com`. 
     
-If you already have a CNAME setup on the `email` subdomain, please [email us]({{site.data.links.email_us}}) and we will update the subdomain to something else that works for you. 
+If you already have a CNAME setup on an `email` subdomain, please [email us]({{site.data.links.email_us}}) and we will update the subdomain to something else that works for you. 
     
     
