@@ -1,6 +1,6 @@
 ---
 title: Inserting merge tags using Liquid in my emails
-description: You can merge customer and event properties into outgoing emails in Vero. To provide you with powerful templating options Vero uses Liquid, an open-source templating language created by Shopify. You can use Liquid to load dynamic content in your emails based on the data you have stored in Vero. 
+description: You can merge customer and event properties into outgoing emails in Vero. To provide you with powerful templating options Vero uses Liquid, an open-source templating language created by Shopify. You can use Liquid to load dynamic content in your emails based on the data you have stored in Vero.
 categories:
 - email design
 layout: articles
@@ -11,7 +11,7 @@ common_issues: true
 
 You can merge customer and event properties into outgoing emails in Vero.
 
-To provide you with powerful templating options Vero uses Liquid, an open-source templating language created by Shopify. You can use Liquid to load dynamic content in your emails based on the data you have stored in Vero. 
+To provide you with powerful templating options Vero uses Liquid, an open-source templating language created by Shopify. You can use Liquid to load dynamic content in your emails based on the data you have stored in Vero.
 
 ## Merging basic data
 
@@ -21,7 +21,7 @@ In Vero, we use a prefix within the standard Liquid `{% raw %}{{{% endraw %}` te
 1. `{% raw %}{{user.property}}{% endraw %}` replace attribute with the name of any customer property that you've captured using the Vero API or uploaded via CSV. For example, `{% raw %}{{user.first_name}}{% endraw %}` would print `John` for a user profile that has the attribute `first_name` with value `John`.
 2. `{% raw %}{{event.property}}{% endraw %}` replace attribute with the name of any event property you've captured with our API or uploaded via CSV. For example, `{% raw %}{{event.product_name}}{% endraw %}` would print `Apple MacBook Pro` for an event that has the attribute `product_name` with value `Apple MacBook Pro`. **Note** that you can only access event attributes for the trigger event of a triggered email.
 
-The prefixes `user.` and `event.` indicate whether the `property` being loaded is stored against the customer's profile as a customer property or against an event the user has triggered. 
+The prefixes `user.` and `event.` indicate whether the `property` being loaded is stored against the customer's profile as a customer property or against an event the user has triggered.
 
 Merge tags are replaced dynamically with the correct data when an email is prepared to be sent.
 
@@ -50,7 +50,7 @@ The following is a list of the key variables and functions you can use:
 
 ## Using Liquid functions
 
-Liquid is a complex and powerful templating language. Vero supports most of the functions outlined in the [Liquid for Designers]({{site.data.links.liquid_for_designers}}) documentation. 
+Liquid is a complex and powerful templating language. Vero supports most of the functions outlined in the [Liquid for Designers]({{site.data.links.liquid_for_designers}}) documentation.
 
 We have extended the default functionality with a series of custom Liquid functions designed to help build better emails whilst making your life easier. Vero-specific Liquid functions:
 
@@ -61,15 +61,17 @@ We have extended the default functionality with a series of custom Liquid functi
 - `{% raw %}{{ event.purchase_date | time_zone: 'Sydney' | date: '%d/%m/%Y %H:%M:%S %Z' }}{% endraw %}` allows you to change the timezone and format of an attribute. The attribute must be a number. You can use any of the timezone values from the TZ column of this guide to timezones. This time formatting tool can help you build the formatting string for output.
 - `{% raw %}{{ extra.time.now | date: '%Y' }}{% endraw %}` gives you the current year. This is commonly used in copyright footers.
 
+You can find our Liquid Language Guide [here](https://www.getvero.com/email-personalization-liquid-guide).
+
 ## Inserting even more powerful data in your emails
 
 There are times when you'll want to go beyond the data you push and store in Vero.
 
-Imagine the scenario where you have triggered a behavioral email three days after a user has taken a specific action, yet want to include the **latest** products available in your store. 
+Imagine the scenario where you have triggered a behavioral email three days after a user has taken a specific action, yet want to include the **latest** products available in your store.
 
 Imagine the scenario you want to send an email every Tuesday and pull in the latest articles from your blog.
 
-Vero's most powerful dynamic templating functionality is called *Fusion* and allows you to pull in data from your own internal APIs or public API endpoints **just before an individual email is sent**. This provides the data accuracy and timeliness needed to personalise your emails on a truly one-to-one basis. Examples include: 
+Vero's most powerful dynamic templating functionality is called *Fusion* and allows you to pull in data from your own internal APIs or public API endpoints **just before an individual email is sent**. This provides the data accuracy and timeliness needed to personalise your emails on a truly one-to-one basis. Examples include:
 
 - Product recommendations tailored specifically to each customer
 - Data and html charts that deliver unique weekly updates with usage details
