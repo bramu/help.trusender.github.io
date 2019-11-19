@@ -45,6 +45,7 @@ We've included an example of a policy below. Below is an example of a policy des
             "Action": [
                 "sns:DeleteEndpoint",
                 "sns:CreatePlatformEndpoint",
+                "sns:GetEndpointAttributes",
                 "sns:ListPlatformApplications"
             ],
             "Resource": "*"
