@@ -14,7 +14,7 @@ Vero automatically handles the subscription status of customers whose emails bou
 
 A hard bounce occurs when an email is rejected by the recieving mail server because the recipient's email address is invalid, disabled, inactive or otherwise permanently unavailable. 
 
-Vero automatically suppresses and marks users as "hard bounced" when we receive a `5xx`, permanent failure message from the delivery provider.
+Vero automatically suppresses and marks users as "hard bounced" when we receive a failure message from the delivery provider that is labeled as permanent due to an issue with the email address.
 
 ## A soft bounce
 
