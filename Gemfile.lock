@@ -15,7 +15,7 @@ GEM
     coffee-script-source (1.11.1)
     colorator (0.1)
     execjs (2.7.0)
-    ffi (1.9.23)
+    ffi (1.11.3)
     filesize (0.1.1)
     httpclient (2.8.3)
     jekyll (3.1.6)
