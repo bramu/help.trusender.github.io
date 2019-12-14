@@ -165,12 +165,10 @@
       margin-top: 83px;
     }
 
-    // header styles
-
 
     header {
       position: fixed;
-      height: 83px;
+      height: 64px;
       left: 0;
       top: 0;
       width: 100%;
@@ -179,6 +177,7 @@
       background: var(--white);
       z-index: 2;
       transition: all .3s;
+      box-shadow: 0 0 3px rgba(0, 0, 0, .18);
     }
 
     header .navbar-light .navbar-nav .nav-link {
@@ -210,8 +209,8 @@
 
     .navbar-light .navbar-brand {
       font-family: 'hk_groteskbold_legacy';
-      font-size: 30px;
-      letter-spacing: 1px;
+      font-size: 26px;
+      letter-spacing: .4px;
       padding: 0;
       margin: 0;
       display: block;
@@ -219,9 +218,83 @@
       margin-top: -5px;
     }
 
+    main .content {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      grid-gap: 50px;
+      padding: 60px 0 100px;
+      height: 100vh;
+    }
 
+    main aside {
+      background: var(--white);
+      box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+      padding: 40px 30px;
+      border-radius: 5px;
+      position: sticky;
+      top: 0;
+    }
 
-    // footer styles 
+    main aside ul li {
+      font-size: 17px;
+      padding-bottom: 8px;
+    }
+
+    main aside ul li a {
+      display: block;
+      transition: all .2s;
+    }
+
+    main aside ul li a:hover {
+      color: rgba(0, 0, 0, .7);
+      text-decoration: none;
+    }
+
+    main aside h3 {
+      padding-bottom: 14px;
+    }
+
+    main aside h3,
+    main .content .main-content h3 {
+      font-size: 1.3rem;
+    }
+
+    .shape:not([class*=shape-blur]) {
+      overflow: hidden;
+    }
+
+    .shape-bottom {
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .shape {
+      position: absolute;
+      pointer-track: none;
+    }
+
+    .shape-fluid-x>* {
+      width: 100%;
+      height: auto;
+    }
+
+    .shape:not([class*=shape-blur])>* {
+      transform: scale(2);
+    }
+
+    .shape-bottom>* {
+      transform-origin: top center;
+    }
+
+    .shape>* {
+      display: block;
+    }
+
+    svg {
+      overflow: hidden;
+      vertical-align: middle;
+    }
 
     footer {
       padding: 100px 0 80px;
