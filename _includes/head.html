@@ -222,8 +222,7 @@
       display: grid;
       grid-template-columns: 260px 1fr;
       grid-gap: 50px;
-      padding: 60px 0 100px;
-      height: 100vh;
+      padding: 40px 0 100px;
     }
 
     main aside {
@@ -232,12 +231,14 @@
       padding: 40px 30px;
       border-radius: 5px;
       position: sticky;
-      top: 0;
+      top: 124px;
+      max-height: 480px;
+      transition: all .2s;
     }
 
     main aside ul li {
       font-size: 17px;
-      padding-bottom: 8px;
+      padding: 0 10px 10px;
     }
 
     main aside ul li a {
