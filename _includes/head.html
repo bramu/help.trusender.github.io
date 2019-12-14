@@ -2,18 +2,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{page.description | strip_html | truncate_words: 28 }}{% else %}{{site.description}}{% endif %}">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- <meta name="description"
+    content="{% if page.description %}{{page.description | strip_html | truncate_words: 28 }}{% else %}{{site.description}}{% endif %}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> -->
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<!--   
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <!--   
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.8.1/algoliasearch.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/algoliasearch-helper-js/2.4.0/algoliasearch.helper.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script> -->
 
   <!-- highlightjs - code highlighting -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/tomorrow-night-bright.min.css">
+  <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/tomorrow-night-bright.min.css">
   <!--<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> -->
 
@@ -27,11 +31,266 @@
   <script type="text/javascript" src="//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js"></script> -->
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="//dq4ao5v8lzg12.cloudfront.net/help.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="//dq4ao5v8lzg12.cloudfront.net/help.min.css"> -->
   <!-- <link rel="stylesheet" href="//0.0.0.0:9000/help.css"> -->
- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+
+  <style>
+    :root {
+      --black: #000;
+      --white: #fff;
+      --grey: #fafafa;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    /**
+ * Site header
+ */
+
+    @font-face {
+      font-family: 'hk_groteskbold_legacy';
+      src: url('../assets/fonts/hkgrotesk-boldlegacy-webfont.woff2') format('woff2'),
+        url('../assets/fonts/hkgrotesk-boldlegacy-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: HKGroteskPro;
+      font-weight: 400;
+      src: url('../assets/fonts/HKGroteskPro-Regular.woff2') format("woff2"), url('../assets/fonts/HKGroteskPro-Regular.woff') format("woff")
+    }
+
+    @font-face {
+      font-family: HKGroteskPro;
+      font-weight: 600;
+      src: url('../assets/fonts/HKGroteskPro-Medium.woff2') format("woff2"), url('../assets/fonts/HKGroteskPro-Medium.woff') format("woff")
+    }
+
+    body {
+      margin: 0;
+      font-family: HKGroteskPro, serif;
+      font-size: 1.0625rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #161c2d;
+      text-align: left;
+      background-color: var(--white);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    b {
+      font-family: 'hk_groteskbold_legacy';
+      font-weight: 600;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1040px;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+
+    .custom-container {
+      width: 100%;
+      max-width: 1280px;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+
+    .btn-black {
+      background: var(--black);
+      color: var(--white);
+      border: 2px solid var(--black);
+      transition: all .2s linear;
+      white-space: nowrap;
+    }
+
+    .btn-black:hover {
+      background: var(--white);
+      color: var(--black);
+    }
+
+    .btn:focus {
+      outline: 0;
+      box-shadow: initial;
+    }
+
+    ul,
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+
+    a {
+      color: var(--black);
+    }
+
+    main {
+      margin-top: 83px;
+    }
+
+    // header styles
+
+
+    header {
+      position: fixed;
+      height: 83px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background: var(--white);
+      z-index: 2;
+      transition: all .3s;
+    }
+
+    header .navbar-light .navbar-nav .nav-link {
+      font-family: 'hk_groteskbold_legacy';
+      color: var(--black);
+    }
+
+    header .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    header .navbar-nav.ml-auto .nav-link {
+      padding-right: 0;
+    }
+
+    header .btn {
+      padding: .3rem .75rem;
+      line-height: 1;
+      height: fit-content;
+      font-size: 14px;
+      min-width: 101px;
+      min-height: 27.59px;
+    }
+
+    header .navbar-expand-lg .navbar-nav {
+      align-items: center;
+    }
+
+    .navbar-light .navbar-brand {
+      font-family: 'hk_groteskbold_legacy';
+      font-size: 30px;
+      letter-spacing: 1px;
+      padding: 0;
+      margin: 0;
+      display: block;
+      line-height: 1;
+      margin-top: -5px;
+    }
+
+
+
+    // footer styles 
+
+    footer {
+      padding: 100px 0 80px;
+      background: var(--black);
+    }
+
+    footer a {
+      color: var(--white);
+    }
+
+    .footer-logo:hover {
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    footer h4 {
+      font-family: 'hk_groteskbold_legacy';
+      color: var(--white);
+      padding: 0 0 10px;
+      font-size: 20px;
+    }
+
+    footer ul li a {
+      color: var(--white);
+      font-size: 15px;
+      display: inline-block;
+      padding: 10px 0 5px;
+    }
+
+    footer ul li a:hover {
+      color: rgba(255, 255, 255, .7);
+    }
+
+    footer p {
+      color: var(--white);
+      text-align: center;
+      margin: 0;
+      padding: 80px 0 0;
+      font-size: 14px;
+    }
+
+    footer p img {
+      display: inline-block;
+      width: 20px;
+    }
+
+    footer .social-icons {
+      display: flex;
+    }
+
+    footer .social-icons li {
+      margin-right: 12px;
+    }
+
+    footer .social-icons li a {
+      padding: 0;
+    }
+
+    footer .social-icon {
+      max-width: 1.25rem;
+      height: auto;
+    }
+
+    footer .footer-logo {
+      font-family: 'hk_groteskbold_legacy';
+      font-size: 30px;
+      letter-spacing: 1px;
+      display: block;
+      margin-top: -9px;
+    }
+  </style>
 </head>
