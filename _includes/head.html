@@ -43,6 +43,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
 
+  <script src="/assets/js/common.js"></script>
+
 
   <style>
     :root {
@@ -258,6 +260,37 @@
     main aside h3,
     main .content .main-content h3 {
       font-size: 1.3rem;
+    }
+
+    main .content .main-content h3 {
+      padding-bottom: 12px;
+    }
+
+    .content .content-inner .main-content {
+      padding-bottom: 40px;
+    }
+
+    .main-content ul {
+      padding: 0 20px;
+    }
+
+    .main-content ul li {
+      padding-bottom: 14px;
+    }
+
+    .main-content ul li a {
+      position: relative;
+      padding-left: 30px;
+    }
+
+    .main-content ul li a::before {
+      content: '';
+      background: url('../assets/images/right.svg') no-repeat;
+      width: 24px;
+      height: 18px;
+      position: absolute;
+      left: 0;
+      top: 0;
     }
 
     .shape:not([class*=shape-blur]) {
