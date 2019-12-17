@@ -372,7 +372,7 @@
     }
 
     .content {
-      padding-bottom: 8rem;
+      padding-bottom: 5rem;
     }
 
     .content .col-12.col-md-6.col-lg-4 {
@@ -426,6 +426,13 @@
       font-size: 1.875rem;
     }
 
+    .contact-sec {
+      width: 100%;
+      padding: 100px 0;
+      position: relative;
+      background: var(--grey);
+    }
+
     .contact-sec:before {
       content: '';
       width: 100%;
@@ -434,11 +441,45 @@
       left: 50%;
       top: -18px;
       transform: translateX(-50%) rotate(-180deg);
-      -webkit-mask-image: url(edge-texture.svg);
-      mask-image: url(edge-texture.svg);
+      -webkit-mask-image: url('../assets/images/edge-texture.svg');
+      mask-image: url('../assets/images/edge-texture.svg');
       -webkit-mask-repeat: repeat no-repeat;
       mask-repeat: repeat no-repeat;
       background-color: var(--grey);
+    }
+
+    .contact-sec h2 {
+      line-height: 1.35;
+      letter-spacing: -.01em;
+      margin-bottom: 1rem;
+      font-size: 1.9375rem;
+      font-family: HKGroteskPro;
+      font-weight: 400;
+    }
+
+    .contact-sec p {
+      margin-bottom: 4rem;
+      color: #869ab8;
+      font-size: 1.1875rem;
+    }
+
+    .contact-sec h6 {
+      text-transform: uppercase;
+      margin-bottom: .25rem;
+      line-height: 1.55;
+      font-size: .75rem;
+      letter-spacing: .08em;
+      color: #506690;
+    }
+
+    .contact-sec a {
+      line-height: 1.45;
+      letter-spacing: -.01em;
+      color: #335eea;
+      margin-bottom: .5rem;
+      font-weight: 400;
+      text-decoration: none;
+      font-size: 1.1875rem;
     }
   </style>
 </head>
