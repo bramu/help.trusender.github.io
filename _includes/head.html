@@ -170,7 +170,7 @@
 
     header {
       position: fixed;
-      height: 64px;
+      height: 83px;
       left: 0;
       top: 0;
       width: 100%;
@@ -211,86 +211,13 @@
 
     .navbar-light .navbar-brand {
       font-family: 'hk_groteskbold_legacy';
-      font-size: 26px;
-      letter-spacing: .4px;
+      font-size: 30px;
+      letter-spacing: 1px;
       padding: 0;
       margin: 0;
       display: block;
       line-height: 1;
       margin-top: -5px;
-    }
-
-    main .content {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      grid-gap: 50px;
-      padding: 40px 0 100px;
-    }
-
-    main aside {
-      background: var(--white);
-      box-shadow: 0 0 3px rgba(0, 0, 0, .2);
-      padding: 40px 30px;
-      border-radius: 5px;
-      position: sticky;
-      top: 124px;
-      max-height: 480px;
-      transition: all .2s;
-    }
-
-    main aside ul li {
-      font-size: 17px;
-      padding: 0 10px 12px;
-    }
-
-    main aside ul li a {
-      display: block;
-      transition: all .2s;
-    }
-
-    main aside ul li a:hover {
-      color: rgba(0, 0, 0, .7);
-      text-decoration: none;
-    }
-
-    main aside h3 {
-      padding-bottom: 20px;
-    }
-
-    main aside h3,
-    main .content .main-content h3 {
-      font-size: 1.3rem;
-    }
-
-    main .content .main-content h3 {
-      padding-bottom: 12px;
-    }
-
-    .content .content-inner .main-content {
-      padding-bottom: 40px;
-    }
-
-    .main-content ul {
-      padding: 0 20px;
-    }
-
-    .main-content ul li {
-      padding-bottom: 14px;
-    }
-
-    .main-content ul li a {
-      position: relative;
-      padding-left: 30px;
-    }
-
-    .main-content ul li a::before {
-      content: '';
-      background: url('../assets/images/right.svg') no-repeat;
-      width: 24px;
-      height: 18px;
-      position: absolute;
-      left: 0;
-      top: 0;
     }
 
     .shape:not([class*=shape-blur]) {
@@ -398,6 +325,87 @@
       letter-spacing: 1px;
       display: block;
       margin-top: -9px;
+    }
+
+
+    .banner {
+      padding: 12rem 0;
+      position: relative;
+    }
+
+    .banner .banner-background {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: -100;
+    }
+
+    .banner .display-2 {
+      font-size: 3.8125rem;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      font-family: HKGroteskPro;
+      font-weight: 400;
+    }
+
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: inherit;
+      background-color: #161c2d;
+      opacity: .6;
+    }
+
+    .text-white-75 {
+      color: rgba(255, 255, 255, .75) !important;
+    }
+
+    .content {
+      padding-bottom: 8rem;
+    }
+
+    .content .col-12.col-md-6.col-lg-4 {
+      padding-bottom: 4rem;
+    }
+
+    .content .row {
+      margin-top: -40px;
+    }
+
+    .content .card {
+      box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.11);
+      transition: all .2s;
+      border: 0;
+      border-top: 3px solid;
+    }
+
+    .content .card:hover {
+      box-shadow: 0 0.5rem 1rem rgba(42, 42, 42, 0.1), 0 0.12rem 0.5rem -0.25rem rgba(42, 42, 42, 0.05);
+      transform: translate3d(0, -5px, 0);
+    }
+
+    .content .card-body {
+      min-height: 228px;
+    }
+
+    .content .card-body h4 {
+      font-size: 1.1875rem;
+      letter-spacing: -.01em;
+      line-height: 1.45;
+      margin-bottom: .5rem;
+    }
+
+    .content .card-body p {
+      color: #506690;
     }
   </style>
 </head>
