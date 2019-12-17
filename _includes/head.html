@@ -43,6 +43,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
 
+  <script src="https://kit.fontawesome.com/62b9f97e0f.js" crossorigin="anonymous"></script>
+
   <script src="/assets/js/common.js"></script>
 
 
@@ -406,6 +408,37 @@
 
     .content .card-body p {
       color: #506690;
+    }
+
+    .icon-circle {
+      display: -webkit-inline-box;
+      display: inline-flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      width: 4.1875rem;
+      height: 4.1875rem;
+      border-radius: 50%;
+    }
+
+    .icon-circle>i {
+      font-size: 1.875rem;
+    }
+
+    .contact-sec:before {
+      content: '';
+      width: 100%;
+      height: 18px;
+      position: absolute;
+      left: 50%;
+      top: -18px;
+      transform: translateX(-50%) rotate(-180deg);
+      -webkit-mask-image: url(edge-texture.svg);
+      mask-image: url(edge-texture.svg);
+      -webkit-mask-repeat: repeat no-repeat;
+      mask-repeat: repeat no-repeat;
+      background-color: var(--grey);
     }
   </style>
 </head>
