@@ -481,5 +481,61 @@
       text-decoration: none;
       font-size: 1.1875rem;
     }
+    
+    .contact-sec input {
+      height: 55px;
+    }
+
+    .contact-sec input.form-control:focus,
+    .contact-sec textarea.form-control:focus {
+      outline: 0;
+      box-shadow: initial;
+      border-color: #000;
+    }
+
+    .contact-sec input.form-control,
+    .contact-sec textarea.form-control {
+      padding: .8125rem 1.25rem;
+      font-size: 1.0625rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #161c2d;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #f1f4f8;
+      border-radius: .375rem;
+      display: block;
+      width: 100%;
+      box-shadow: none;
+      -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .contact-sec button {
+      background-color: var(--black);
+      border-color: var(--black) !important;
+    }
+
+    .contact-sec button:hover {
+      background: var(--white);
+      color: var(--black);
+    }
+
+    .mb-7,
+    .my-7 {
+      margin-bottom: 2.5rem !important;
+    }
+
+    @media (min-width: 768px) {
+
+      .mb-md-9,
+      .my-md-9 {
+        margin-bottom: 4rem !important;
+      }
+
+      .border-left-md {
+        border-left: 1px solid #000 !important;
+      }
+    }
   </style>
 </head>
