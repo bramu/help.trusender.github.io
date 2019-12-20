@@ -2,50 +2,353 @@
 layout: default
 ---
 
-<div class="help-semi-nav">
-  <div class="content-wrapper">
-   <a class="back-link" href="{{ site.baseurl }}/"><span class="fa fa-long-arrow-left"></span> Back to Help</a>
+<main>
+  <div class="breadcrumb-sec bg-gray-200">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Breadcrumb -->
+          <ol class="breadcrumb breadcrumb-scroll">
+            <li class="breadcrumb-item">
+              <a href="#!" class="text-gray-700">
+                Help Center
+              </a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              {{ page.categories}}
+            </li>
+          </ol>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
   </div>
-</div>
-<div class="article single {{page.title | downcase | replace:' ', '-'}}">
-  <div class="main-sidebar">
-    <article class="main-wrapper  algolia__initial-content js-algolia__initial-content">
-      <div><span class="categories">{{ page.categories }}</span></div>
-      {{ content }}
-      <div class="support-block white-block">
-        <h3>Didn't find what you were looking for?</h3>
-        <p>Get in touch, we're always happy to help. Email us at: <a href="#">support@getvero.com</a></p>
+
+  <section class="article-sec pt-6 pt-md-8 pb-8 mb-md-8">
+    <div class="container">
+      <div class="article {{page.title | downcase | replace:' ', '-'}}">
+        <div class="row mb-6 mb-md-8">
+          <div class="col-auto">
+
+            <!-- Icon -->
+            <div class="icon-circle bg-{{page.color}} text-white">
+              <i class="fas {{ page.icon }}" aria-hidden="true"></i>
+            </div>
+
+          </div>
+          <div class="col ml-n4">
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold mb-0">
+              {{ page.categories }}
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-0">
+              {{page.tagline}}
+            </p>
+
+          </div>
+        </div>
+
+        <div class="card shadow-light-lg accordion border-0" id="helpAccordionTwo">
+          <div class="list-group">
+            <div class="list-group-item">
+
+              <!-- Header -->
+              <div class="d-flex align-items-center">
+                <div class="mr-auto">
+
+                  <!-- Heading -->
+                  <h4 class="font-weight-bold mb-0">
+                    {{page.categories}}
+                  </h4>
+
+                  <!-- Text -->
+                  <p class="font-size-sm text-muted mb-0">
+                    Issues related to payments or invoicing.
+                  </p>
+
+                </div>
+
+                <!-- Badge -->
+                <span class="badge badge-pill badge-success-soft ml-4">
+                  <span class="h6 text-uppercase">
+                    4 answers
+                  </span>
+                </span>
+
+              </div> <!-- / .row -->
+
+            </div>
+
+            <div class="list-group-item">
+
+              <!-- Toggle -->
+              <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
+                href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
+
+                <!-- Title -->
+                <span class="mr-4">
+                  I was double charged last month. Why is that?
+                </span>
+
+                <!-- Metadata -->
+                <div class="text-muted ml-auto">
+
+                  <!-- Text -->
+                  <span class="font-size-sm mr-4 d-none d-md-inline">
+                    Updated 3 months ago
+                  </span>
+
+                  <!-- Chevron -->
+                  <span class="collapse-chevron text-muted">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+
+                </div>
+
+              </a> <!-- / .row -->
+
+              <!-- Collapse -->
+              <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
+                <div class="py-5">
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
+                    perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident
+                    quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam
+                    necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                  </p>
+
+                  <div class="d-flex align-items-center">
+
+                    <!-- Vote -->
+                    <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                      <label class="btn btn-sm btn-white active">
+                        <input type="radio" name="helpFiveVote" id="helpFiveDown" checked=""> <i class="far fa-thumbs-down"></i>
+                      </label>
+                      <label class="btn btn-sm btn-white">
+                        <input type="radio" name="helpFiveVote" id="helpFiveUp"> <i class="far fa-thumbs-up"></i>
+                      </label>
+                    </div>
+
+                    <!-- Text -->
+                    <span class="font-size-sm text-muted">
+                      Did this help solve your issue?
+                    </span>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="list-group-item">
+
+              <!-- Toggle -->
+              <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
+                href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
+
+                <!-- Title -->
+                <span class="mr-4">
+                  How do I change my default payment option?
+                </span>
+
+                <!-- Metadata -->
+                <div class="text-muted ml-auto">
+
+                  <!-- Text -->
+                  <span class="font-size-sm mr-4 d-none d-md-inline">
+                    Updated today
+                  </span>
+
+                  <!-- Chevron -->
+                  <span class="collapse-chevron text-muted">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+
+                </div>
+
+              </a> <!-- / .row -->
+
+              <!-- Collapse -->
+              <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
+                <div class="py-5">
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
+                    perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident
+                    quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam
+                    necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                  </p>
+
+                  <div class="d-flex align-items-center">
+
+                    <!-- Vote -->
+                    <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                      <label class="btn btn-sm btn-white active">
+                        <input type="radio" name="helpSixVote" id="helpSixDown" checked=""> <i class="far fa-thumbs-down"></i>
+                      </label>
+                      <label class="btn btn-sm btn-white">
+                        <input type="radio" name="helpSixVote" id="helpSixUp"> <i class="far fa-thumbs-up"></i>
+                      </label>
+                    </div>
+
+                    <!-- Text -->
+                    <span class="font-size-sm text-muted">
+                      Did this help solve your issue?
+                    </span>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="list-group-item">
+
+              <!-- Toggle -->
+              <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
+                href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
+
+                <!-- Title -->
+                <span class="mr-4">
+                  Can I still pay with PayPal?
+                </span>
+
+                <!-- Metadata -->
+                <div class="text-muted ml-auto">
+
+                  <!-- Text -->
+                  <span class="font-size-sm mr-4 d-none d-md-inline">
+                    Updated last week
+                  </span>
+
+                  <!-- Chevron -->
+                  <span class="collapse-chevron text-muted">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+
+                </div>
+
+              </a> <!-- / .row -->
+
+              <!-- Collapse -->
+              <div class="collapse" id="helpSeven" data-parent="#helpAccordionTwo">
+                <div class="py-5">
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
+                    perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident
+                    quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam
+                    necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                  </p>
+
+                  <div class="d-flex align-items-center">
+
+                    <!-- Vote -->
+                    <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                      <label class="btn btn-sm btn-white active">
+                        <input type="radio" name="helpSevenVote" id="helpSevenDown" checked=""> <i class="far fa-thumbs-down"></i>
+                      </label>
+                      <label class="btn btn-sm btn-white">
+                        <input type="radio" name="helpSevenVote" id="helpSevenUp"> <i class="far fa-thumbs-up"></i>
+                      </label>
+                    </div>
+
+                    <!-- Text -->
+                    <span class="font-size-sm text-muted">
+                      Did this help solve your issue?
+                    </span>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="list-group-item">
+
+              <!-- Toggle -->
+              <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
+                href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
+
+                <!-- Title -->
+                <span class="mr-4">
+                  Can I use referral code to decrease my monthly fees?
+                </span>
+
+                <!-- Metadata -->
+                <div class="text-muted ml-auto">
+
+                  <!-- Text -->
+                  <span class="font-size-sm mr-4 d-none d-md-inline">
+                    Updated 3 weeks ago
+                  </span>
+
+                  <!-- Chevron -->
+                  <span class="collapse-chevron text-muted">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+
+                </div>
+
+              </a> <!-- / .row -->
+
+              <!-- Collapse -->
+              <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
+                <div class="py-5">
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
+                    perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident
+                    quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam
+                    necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                  </p>
+
+                  <div class="d-flex align-items-center">
+
+                    <!-- Vote -->
+                    <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                      <label class="btn btn-sm btn-white active">
+                        <input type="radio" name="helpEightVote" id="helpEightDown" checked=""> <i
+                          class="far fa-thumbs-down"></i>
+                      </label>
+                      <label class="btn btn-sm btn-white">
+                        <input type="radio" name="helpEightVote" id="helpEightUp"> <i class="far fa-thumbs-up"></i>
+                      </label>
+                    </div>
+
+                    <!-- Text -->
+                    <span class="font-size-sm text-muted">
+                      Did this help solve your issue?
+                    </span>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        {{ content }}
       </div>
-      <div class="open-block white-block">
-        <h3>Improve our docs</h3>
-        <p>Our help docs are open to everyone, help us make them better by contributing on <span class="fa fa-github"></span><a href="https://github.com/getvero/getvero.github.io"> Github</a> and you'll be our new best friend!</p>
-      </div>
-    </article>
-    <div class="algolia__search-content js-algolia__search-content">
-      <h2 class="page-title">Search Results:</h2>
-      <div id="search-hits"></div>
     </div>
-    <div class="sidebar-wrapper">
-      <div id="search-searchbar" class="hide-on-mobile"></div>
-      <!-- <div class="white-block">
-        <h3 class="gray-block-title">Related Articles</h3>
-        {% if page.getting_started == true %}
-          {% assign items = site.articles | where: "getting_started", true %}
-        {% elsif page.common_issues == true %}
-          {% assign items = site.articles | where: "common_issues", true %}
-        {% else %}
-          {% assign items = site.articles | where: "categories", page.categories %}
-        {% endif %}
-        <ul class="unstyled-list">
-          {% for item in items %}
-            {% unless item.hide == true or item.title == page.title %}
-              <li>
-                <a class="article-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-              </li>
-            {% endunless %}
-          {% endfor %}
-        </ul>
-      </div> -->
-    </div>
-  </div>
-</div>
+  </section>
+
+</main>
