@@ -1,28 +1,28 @@
 ---
-title: configuration
-description: trusender makes A/B testing easy to manage while providing the level of accuracy required to ensure your tests are robust, so you can confidently optimize the performance of your configuration.
+title: deliverability
+description: trusender makes A/B testing easy to manage while providing the level of accuracy required to ensure your tests are robust, so you can confidently optimize the performance of your campaigns.
 categories:
-- Configuration
+- Deliverability
 layout: articles
 common_issues: true
-permalink: "/articles/configuration"
-icon: fa-cogs
+permalink: "/articles/deliverability"
+icon: fa-clock
 tagline: Issues related to your payments or invoicing and other billing issues.
-color: warning
+color: info
 ---
 
 
 
-<div class="article configuration">
+<div class="article deliverability">
     <div class="row mb-6 mb-md-8">
         <div class="col-auto">
-            <div class="icon-circle bg-warning text-white">
-                <i class="fas fa-cogs" aria-hidden="true"></i>
+            <div class="icon-circle bg-info text-white">
+                <i class="fas fa-clock" aria-hidden="true"></i>
             </div>
         </div>
         <div class="col ml-n4">
             <h2 class="font-weight-bold mb-0">
-                Configuration
+                Deliverability
             </h2>
             <p class="font-size-lg text-gray-700 mb-0">
                 Issues related to your payments or invoicing and other billing issues.
@@ -35,7 +35,7 @@ color: warning
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
                         <h4 class="font-weight-bold mb-0">
-                            Configuration
+                            Deliverability
                         </h4>
                         <p class="font-size-sm text-muted mb-0">
                             Issues related to payments or invoicing.
