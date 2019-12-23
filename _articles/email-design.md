@@ -51,7 +51,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        I was double charged last month. Why is that?
+                        What are the design strategies that attracts the customer?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -96,7 +96,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        How do I change my default payment option?
+                        Can I use the predefined emails designs to send the emails?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -141,7 +141,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
                     <span class="mr-4">
-                        Can I still pay with PayPal?
+                        How can I customize the predefined email designs?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -186,7 +186,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
                     <span class="mr-4">
-                        Can I use referral code to decrease my monthly fees?
+                        Difference between HTML and Plain Text emails.
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">

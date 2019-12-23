@@ -52,7 +52,7 @@ color: warning
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        I was double charged last month. Why is that?
+                        How to install or setup trusender in your project?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -97,7 +97,7 @@ color: warning
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        How do I change my default payment option?
+                       Prerequisites and system requirements for integrating trusender?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -142,7 +142,7 @@ color: warning
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
                     <span class="mr-4">
-                        Can I still pay with PayPal?
+                        What are the languages that trusender support?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -187,7 +187,7 @@ color: warning
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
                     <span class="mr-4">
-                        Can I use referral code to decrease my monthly fees?
+                        Can I revert back the integration once it is integrated?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">

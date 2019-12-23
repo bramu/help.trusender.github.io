@@ -25,7 +25,7 @@ color: success
                 Campaigns
             </h2>
             <p class="font-size-lg text-gray-700 mb-0">
-                Issues related to your payments or invoicing and other billing issues.
+                Issues related to your campaigns and bulk emails.
             </p>
         </div>
     </div>
@@ -38,7 +38,7 @@ color: success
                             Campaigns
                         </h4>
                         <p class="font-size-sm text-muted mb-0">
-                            Issues related to payments or invoicing.
+                            Issues related to your campaigns and bulk emails.
                         </p>
                     </div>
                     <span class="badge badge-pill badge-success-soft ml-4">
@@ -52,7 +52,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        I was double charged last month. Why is that?
+                        What is an email campaign?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -97,7 +97,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        How do I change my default payment option?
+                       How to build a targeted email list?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -142,7 +142,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
                     <span class="mr-4">
-                        Can I still pay with PayPal?
+                         Choosing audience wisely 
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -187,7 +187,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
                     <span class="mr-4">
-                        Can I use referral code to decrease my monthly fees?
+                       How to upload targeted email list?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">

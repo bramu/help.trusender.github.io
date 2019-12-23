@@ -51,7 +51,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        I was double charged last month. Why is that?
+                        What is a segment?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -96,7 +96,7 @@ color: success
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        How do I change my default payment option?
+                        How can I create segments in trusender?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
