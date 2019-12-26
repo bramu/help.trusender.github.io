@@ -65,14 +65,7 @@ color: dark
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           A/B testing (also known as Split-testing) is a form of marketing research which allows you to determine the most effective form for your mailings and track subscriber behavior by comparing different versions of the same mailing.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -200,14 +193,12 @@ color: dark
                 <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            <p class="text-gray-700">
+                           Yes! It’s possible to start with a 30-Day Free Trial account, with no credit card required.
+                        </p>
+                       <p> <a href="https://www.trusender.com/signup1.com">Sign up free</a></p>
+                        <p class="text-gray-700">You can upgrade your free trial to a paid account at any time during the trial or at the end of 30 days. With a FREE trial you can:</p>
+                        <p class="text-gray-700">add 1000 contacts (the unconfirmed and removed contacts count toward the limit) test and utilize account features for 30 days.</p>
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">

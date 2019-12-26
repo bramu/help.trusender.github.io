@@ -66,14 +66,11 @@ color: dark
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                          <b>Export customers.</b>You can export a list of customers and their properties that belong to any segment. To do this, select a segment and then click Export in the top right of the screen. The output file includes the ID, email address and all other properties of each customer in CSV format.
+                        </p>
+                         <p class="text-gray-700">
+                          <b>Export reports.</b>
+                          You can export the results of an email campaign. To do this, visit the Reports menu and filter down to the campaign data you want to export. Click Export in the top right of the screen.   
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -111,14 +108,7 @@ color: dark
                 <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            trusender consists of a event log manager called recent activity in which each and every event of the user is stored from the point of signingin to the site until the user is left from the site.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">

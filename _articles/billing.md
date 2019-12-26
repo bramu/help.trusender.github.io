@@ -51,7 +51,7 @@ color: primary
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        I was double charged last month. Why is that?
+                        Can I try GetResponse before I buy?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -65,15 +65,11 @@ color: primary
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           Yes! It’s possible to start with a 30-Day Free Trial account, with no credit card required.
                         </p>
+                        <p> <a href="https://www.trusender.com/signup1.com">Sign up free</a></p>
+                        <p class="text-gray-700">You can upgrade your free trial to a paid account at any time during the trial or at the end of 30 days. With a FREE trial you can:</p>
+                        <p class="text-gray-700">add 1000 contacts (the unconfirmed and removed contacts count toward the limit) test and utilize account features for 30 days.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
@@ -96,7 +92,7 @@ color: primary
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        How do I change my default payment option?
+                       How can I change my subscription plan?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -110,15 +106,15 @@ color: primary
                 <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            You can upgrade or downgrade your subscription plan at any time.
                         </p>
+                        <p class="text-gray-700">
+                            <b>Upgrade:</b>
+                            You can upgrade your plan at any time by going to Billing > Upgrade account.An upgrade takes place immediately and your billing cycle always starts anew.Upon an upgrade, the system calculates how much unused time is left from your previous subscription: in % and in payment currency (EUR, USD, GBP, PLN). We subtract this sum from the price of the new package and the result is what is charged when you upgrade. You will see the exact amount before finishing the transaction.
+                        </p>
+                        <p class="text-gray-700">
+                            <b>Downgrade:</b>
+                            Downgrades can only be performed by Support Team as per your request.In order to have your account downgraded to a lower plan or from annual/biannual payments to monthly payments please create a support ticket at gr-billing@cs.getresponse.com or contact us via LiveChat.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
@@ -141,7 +137,7 @@ color: primary
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
                     <span class="mr-4">
-                        Can I still pay with PayPal?
+                        How can I change my payment method?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -155,14 +151,7 @@ color: primary
                 <div class="collapse" id="helpSeven" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           Payment method can be changed by our support team upon request. You can contact us via <a href="">24/7 Live Chat</a> or via <a href="">Email Support</a> and our agent will assist you in changing the payment method. You can also contact us for information about payment methods available for your country of residence.To check which payment methods we currently accept, <a href=""></a> click here.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -186,7 +175,7 @@ color: primary
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
                     <span class="mr-4">
-                        Can I use referral code to decrease my monthly fees?
+                        How to cancel my account?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -200,14 +189,7 @@ color: primary
                 <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                          To cancel your account at any time, please log into your account and go to Billing. Scroll down and click Cancel subscription
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">

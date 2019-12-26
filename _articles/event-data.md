@@ -65,14 +65,10 @@ color: warning
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           Events are nothing but actions a customer is taking on your site. It could be everything from signing up to checking out, viewing a page to clicking a button, signingout, etc..
+                        </p>
+                        <p class="text-gray-700">
+                            trusender allows you collect event properties along with any of these events. These are then used to provide more context and customize your email even more.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -110,14 +106,7 @@ color: warning
                 <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            trusender consists of a event log manager called recent activity in which each and every event of the user is stored from the point of signingin to the site until the user is left from the site.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -155,14 +144,7 @@ color: warning
                 <div class="collapse" id="helpSeven" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            You can be able to upload the list of past events contacts through a CSV file.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -200,14 +182,7 @@ color: warning
                 <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           trusender consists of a event log called recent activity in which each and every event of the user is saved from the point of signingin to the site until the user is left from the site.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">

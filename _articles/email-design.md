@@ -51,7 +51,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse"
                     href="#helpFive" role="button" aria-expanded="false" aria-controls="helpFive">
                     <span class="mr-4">
-                        What are the design strategies that attracts the customer?
+                        Why are email newsletters important for your business?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -65,15 +65,14 @@ color: danger
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            <b>Coverage.</b> Over 3.8 billion people use emails, 34% of humanity. Every day people send and receive 281 billion emails on average. Business emails make up a majority of emails sent daily, 109 billion. If used correctly, email newsletters can cover enormous audiences in a short period.
                         </p>
+                        <p class="text-gray-700">
+                          <b>Effectiveness.</b> Email newsletters have a significant impact on email marketing success. They proved to be the most commonly used emails for engaging with the clients. Email marketing campaigns yield near 4000% of ROI (return on investment). Only SEO shows more significant figures.
+                        </p>
+                        <p class="text-gray-700"><b>Personalization.</b> Email newsletters fulfill the needs and expectations of different people and social groups. The audience’s nature is usually taken into account. It pays off to adjust your emails to specific groups based on products they are likely to search for.</p>
+                        <p class="text-gray-700"> <b>Credit.</b> If a company makes and sells clothes, for example, they can share upcoming trends in an email newsletter or show the manufacturing process to people. This a fair opportunity to highlight the promoter’s level of expertise in a particular field and increase their credibility at the same time.</p>
+                        <p class="text-gray-700"><b>Relationship.</b> The bottom line is that adequate email newsletters bring communication between a business and its customers to an entirely new level. Now it’s possible to find out customer's expectations, while the audience, in exchange, can see what the company expects from them. This transparent attitude rewards both sides with mutual benefits results in a more genuine relationship.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
@@ -96,7 +95,7 @@ color: danger
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        Can I use the predefined emails designs to send the emails?
+                        Email Newsletter Best Practices
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -110,14 +109,16 @@ color: danger
                 <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           <b>Avoid spammy words.</b> Going to the spam box is the worst-case scenario for your email newsletter. Even though current spam filters are more sophisticated and able to analyze the context of your words, you’d better still be careful. Avoid any of these spammy words.
+                        </p>
+                         <p class="text-gray-700">
+                           <b> Don’t forget alt text for images.</b>If an image isn’t loading for some reason, alternative text is supposed to describe the missing image. It gives you a chance for your message to be read, even without pictures. Also, if the CTA is an image, people will click through, because there is the hidden alt text.
+                        </p>
+                         <p class="text-gray-700">
+                           <b> Make it mobile-friendly.</b> Make sure your email is mobile device friendly. About half of users open their emails on mobile devices.
+                        </p>
+                         <p class="text-gray-700">
+                           <b>Schedule your emails intelligently.</b>Develop a schedule based on your customers’ lifestyle. Find out the optimal moments for people to read your emails. Send email newsletters regularly, but don’t overwhelm your audience. Let the people breath; otherwise, your messages will go into a trash can.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -155,14 +156,7 @@ color: danger
                 <div class="collapse" id="helpSeven" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            Remove the content if it does not fit your idea and add your own content.You can also change the layout if you don't like it.You can add your custom layout by removing the markup but please ensure that layout is made out of tables and the markup is formatted exactly or else you will get design issues.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -200,14 +194,10 @@ color: danger
                 <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                         <b>Html Emails</b> are the kind of emails which is done using markup and there will be exact layout for the emails done in html format.
+                        </p>
+                         <p class="text-gray-700">
+                         <b>PlainText Emails</b> are the kind of emails which is not done using markup rather they are simply plain content without any markup.There will be only anchor tags used for linking the elements to redirect them to particular URL.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">

@@ -66,15 +66,9 @@ color: info
                 <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                           A dedicated IP is a feature offered by an email service by which you can send out all your mailings from just one specific IP address. In this case, no other users will be sending emails out from this address.
                         </p>
+                        <p class="text-gray-700">This will have a positive impact on the reputation of your mailings, as well as on the percentage of emails opened and the number of conversions.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
@@ -97,7 +91,7 @@ color: info
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSix" role="button" aria-expanded="false" aria-controls="helpSix">
                     <span class="mr-4">
-                        What is IP warmup?
+                        How to Calculate an Email Delivery Rate?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -111,14 +105,7 @@ color: info
                 <div class="collapse" id="helpSix" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                          Email delivery rates are calculated by dividing the number of emails sent minus bounces by the number of emails sent. You should remember that the number of emails sent is not the same as the number of emails delivered because when you send mailings, some emails may have bounced.
                         </p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
@@ -142,7 +129,7 @@ color: info
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpSeven" role="button" aria-expanded="false" aria-controls="helpSeven">
                     <span class="mr-4">
-                       How to reduce spam and bounce rate?
+                      Why do I get spam emails?
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -156,15 +143,18 @@ color: info
                 <div class="collapse" id="helpSeven" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
-                        </p>
+                           <b>Your email address was exposed during a data leakage.</b> This is the main reason behind spam email spreading, which happens even to the large organizations like Adobe, LinkedIn, Last.FM. It is a security threat because it may include names, passwords, and email addresses. Spammers use this data for illegal activities knowing that the majority of emails are active.
+                         </p>
+                         <p class="text-gray-700">
+                            <b>Your email was harvested by a specialized tool.</b> If you ever published your email address on the internet, spammers may steal it using tools for crawling the internet for an @ symbol, which is mostly used at the beginning of the email domain — for example, bob_behappy@mail.com.
+                         </p>
+                         <p class="text-gray-700">
+                            <b>Your email was stolen from someone’s contact list.</b> If spammers figure out an email address and password of your friend, they scan the contact list to get new addresses and send more spam.
+                         </p>
+                         <p class="text-gray-700">
+                           <b>Your email was randomly generated.</b> Cybercriminals combine common user names with popular domain names like @gmail.com or @yahoo.com. They send spam emails to all generated email addresses, and if the email was delivered and opened, it signals that the email address is real.
+                         </p>
+                         <p class="text-gray-700"> <b>A dishonest company sold your email.</b> Some dirty players on the email market sell their mailing list to spammers.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
@@ -187,7 +177,7 @@ color: info
                 <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse"
                     href="#helpEight" role="button" aria-expanded="false" aria-controls="helpEight">
                     <span class="mr-4">
-                        Best practices to deliver email to customer inbox
+                       The main errors that occur in delivering email campaigns
                     </span>
                     <div class="text-muted ml-auto">
                         <span class="font-size-sm mr-4 d-none d-md-inline">
@@ -201,15 +191,18 @@ color: info
                 <div class="collapse" id="helpEight" data-parent="#helpAccordionTwo">
                     <div class="py-5">
                         <p class="text-gray-700">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet
-                            perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa
-                            provident
-                            quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.
-                            Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit
-                            magnam
-                            necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                            <b>"Temporarily unavailable"</b> means that the last sending failed because the recipient’s email server was unavailable or rejected the message.
                         </p>
+                       <p class="text-gray-700">
+                         <b>"Address doesn’t exist"</b> means that the email address is not on the domain. This happens often because users might sometimes mistakenly enter the wrong email address on the subscription form. That is why it’s best to use the double opt-in form of subscription in which the subscriber confirms his or her desire to receive your mailings by clicking the link in the opt-in confirmation email. 
+                       </p>
+                       <p class="text-gray-700">
+                        <b>"Spam"</b> means that the recipient’s server rejected receiving your email, equating it to be spam.
+                       </p>
+                       <p class="text-gray-700">
+                         <b>"Mailbox full"</b> means that the subscriber’s inbox is full and has no way to receive your email. In this case, resending can be done after three days.
+                       </p>
+                       <p class="text-gray-700"><b>"Marked spam by user"</b> means the user marked your letter as spam and his or her email address will be automatically transferred to the list of constantly unavailable emails.</p>
                         <div class="d-flex align-items-center">
                             <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
                                 <label class="btn btn-sm btn-white active">
