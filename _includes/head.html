@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trusender</title>
   <!-- <meta name="description"
     content="{% if page.description %}{{page.description | strip_html | truncate_words: 28 }}{% else %}{{site.description}}{% endif %}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> -->
@@ -33,7 +34,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../assets/images/favicon-32x32.png">
+  <link rel="shortcut icon" href="../assets/images/favicon-32x32.png">
   <!-- <link rel="stylesheet" href="//dq4ao5v8lzg12.cloudfront.net/help.min.css"> -->
   <!-- <link rel="stylesheet" href="//0.0.0.0:9000/help.css"> -->
 
@@ -48,6 +49,15 @@
 
   <script src="/assets/js/common.js"></script>
 
+  <script>
+    $('.bs-collapse').on('show.bs.collapse', function () {
+      $(this).closest('list-group-item').find('a').addClass('active');
+    });
+
+    $('.bs-collapse').on('hide.bs.collapse', function () {
+      $(this).closest('list-group-item').find('a').removeClass('active');
+    });
+  </script>
 
   <style>
     :root {
@@ -634,8 +644,8 @@
       border: 1px solid #f1f4f8;
     }
 
-    .list-group-item p a{
-      color: #0056b3!important;
+    .list-group-item p a {
+      color: #0056b3 !important;
     }
 
     .card>.list-group:first-child .list-group-item:first-child {
@@ -893,7 +903,9 @@
     }
 
     @media only screen and (max-width:768px) {
-      footer .col-md-3 {
+
+      footer .col-md-3,
+      footer .col-md-4 {
         padding-bottom: 30px;
       }
 

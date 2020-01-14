@@ -62,7 +62,7 @@ color: primary
                         </span>
                     </div>
                 </a>
-                <div class="collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
+                <div class="collapse bs-collapse" id="helpFive" data-parent="#helpAccordionTwo" style="">
                     <div class="py-5">
                         <p class="text-gray-700">
                            Yes! It’s possible to start with a 30-Day Free Trial account, with no credit card required.
