@@ -57,6 +57,13 @@
     $('.bs-collapse').on('hide.bs.collapse', function () {
       $(this).closest('list-group-item').find('a').removeClass('active');
     });
+
+    $(document).ready(function () {
+      $('.navbar-toggler').click(function () {
+        $('html').toggleClass('hidden');
+        $('.overlay').toggleClass('active');
+      })
+    })
   </script>
 
   <style>
@@ -75,6 +82,16 @@
     body,
     html {
       height: 100%;
+    }
+
+    .hidden {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    header .overlay {
+      display: flex;
+      flex: 1;
     }
 
     /**
@@ -798,13 +815,22 @@
         border: 0;
       }
 
+      header .overlay.active {
+        background: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
       header .navbar-collapse {
         position: fixed;
         right: -300px;
         top: 0;
         z-index: 3;
         width: 260px;
-        height: 100vh;
+        min-height: 100vh;
         overflow-y: auto;
         box-shadow: 0 0 3px rgba(0, 0, 0, .3);
         background: var(--white);
@@ -904,6 +930,14 @@
 
     @media only screen and (max-width:768px) {
 
+      .banner {
+        padding: 4rem 0;
+      }
+
+      .content .card {
+        box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.22);
+      }
+
       footer .col-md-3,
       footer .col-md-4 {
         padding-bottom: 30px;
@@ -917,6 +951,26 @@
         padding: 30px 0 0;
       }
 
+      .content {
+        padding-bottom: 3rem;
+      }
+
+      .article-sec .article h2 {
+        font-size: 22px;
+      }
+
+      .article-sec .article p {
+        font-size: 16px !important;
+      }
+
+      .article.billing .row {
+        margin-bottom: 40px;
+      }
+
+      .article.billing .col-auto {
+        padding-right: 0;
+      }
+
     }
 
     @media only screen and (max-width:480px) {
@@ -926,6 +980,19 @@
 
       main {
         margin-top: 60px;
+      }
+
+      .banner .display-2 {
+        font-size: 30px;
+      }
+
+      .banner .lead {
+        font-size: 18px;
+      }
+
+      .content .col-12.col-md-6.col-lg-4 {
+        padding-bottom: 0;
+        margin-bottom: 40px;
       }
 
       .navbar-light .navbar-brand {
@@ -964,6 +1031,18 @@
       footer .footer-logo {
         font-size: 28px;
         letter-spacing: .4px;
+      }
+
+      .contact-sec {
+        padding: 70px 0;
+      }
+
+      .contact-sec h2 {
+        font-size: 26px;
+      }
+
+      .contact-sec p {
+        font-size: 17px !important;
       }
 
     }
